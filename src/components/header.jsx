@@ -10,6 +10,7 @@ export default function Header() {
             <div className="nav">
                 <a href="#home">Accueil</a>
                 <a href="#about">Présentation</a>
+                <a href="#parcours">Parcours</a>
                 <a href="#project">Réalisations</a>
                 <a href="#proxp">Expériences professionelles</a>
                 <a href="#skills">Compétences</a>

@@ -8,8 +8,9 @@ export default function HomeSection() {
             <img src="../public/images/imgHome.jpg" alt="" srcset="" />
             <div className="containerLeft">
                 <img src="../public/images/memoji.png" alt="" srcset="" />
-                <h1>Bonjour, je m'appelle Hugo !</h1>
-                <p>Je suis curieux !</p>
+                <h1>Étudiant de 21 ans</h1>
+                <hr />
+                <p>Développeur web</p>
             </div>
         </section>
     );

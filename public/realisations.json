@@ -109,9 +109,7 @@
             "skills": {
                 "skill_1": "- Implémenter une interface responsive avec HTML et CSS",
                 "skill_2": "- Installer un environnement de développement front-end",
-                "skill_3": "- Intégrer du contenu conformément à une maquette avec HTML et CSS",
-                "skill_4": "",
-                "skill_5": ""
+                "skill_3": "- Intégrer du contenu conformément à une maquette avec HTML et CSS"
             },
             "ressource": "",
             "techno": "HTML/CSS",
@@ -126,9 +124,7 @@
             "skills": {
                 "skill_1": "- Intégrer une maquette en mobile-first",
                 "skill_2": "- Mettre en œuvre des animations CSS",
-                "skill_3": "- Versionner son projet avec Git et Github",
-                "skill_4": "",
-                "skill_5": ""
+                "skill_3": "- Versionner son projet avec Git et Github"
             },
             "ressource": "",
             "techno": "HTML/CSS",
@@ -143,9 +139,7 @@
             "skills": {
                 "skill_1": "- Gérer les événements utilisateurs avec JavaScript",
                 "skill_2": "- Manipuler les éléments du DOM avec JavaScript",
-                "skill_3": "- Récupérer les données utilisateurs dans le JavaScript via des formulaires",
-                "skill_4": "",
-                "skill_5": ""
+                "skill_3": "- Récupérer les données utilisateurs dans le JavaScript via des formulaires"
             },
             "ressource": "",
             "techno": "HTML/CSS/JS",
@@ -177,9 +171,7 @@
             "skills": {
                 "skill_1": "- Afficher les données du back end sur l'interface via des appels API",
                 "skill_2": "- Configurer des routes API pour la communication client / serveur",
-                "skill_3": "- Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front",
-                "skill_4": "",
-                "skill_5": ""
+                "skill_3": "- Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front"
             },
             "ressource": "",
             "techno": "REACT",

@@ -2,7 +2,7 @@
 
 section.home {
     padding: 0;
-    background-color: #ffffff00;
+    background-color: rgb(227, 227, 227);
 
     img {
         width: 100%;
@@ -26,6 +26,14 @@ section.home {
 
         h1 {
             font-size: 4.5em;
+        }
+
+        hr {
+            width: 100px;
+            border: none;
+            height: 6px;
+            border-radius: 50px;
+            background-color: rgb(206, 206, 206);
         }
 
         p {

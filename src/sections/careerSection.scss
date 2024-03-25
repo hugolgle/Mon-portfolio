@@ -1,0 +1,70 @@
+@import '../main.scss';
+
+section.parcours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.containerParcours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: auto;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+
+    div.barre {
+        position: absolute;
+        height: 470px;
+        width: 3px;
+        background-color: #565656;
+        display: flex;
+        border-radius: 15px 15px 0 0;
+        margin-left: 13px;
+        left: 0;
+        bottom: 0;
+    }
+
+    div.boxParcour {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        div.rond {
+            width: 30px;
+            height: 30px;
+            border-radius: 50px;
+            background-color: #565656;
+        }
+
+        div.boxText {
+            width: 320px;
+            height: 120px;
+            padding: 5px;
+            background-color: #dadada;
+            margin-left: 40px;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.75);
+
+            h3 {
+                font-size: 1.5em;
+            }
+
+            hr {
+                width: 50px;
+                height: 3px;
+                border-radius: 50px;
+                background-color: #565656;
+                border: none;
+            }
+        }
+    }
+
+
+}
