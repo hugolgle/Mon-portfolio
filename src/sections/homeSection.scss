@@ -17,6 +17,8 @@ section.home {
         top: 0;
         @include display(flex, column, center, center);
         color: rgb(206, 206, 206);
+        margin-left: -50%;
+        animation: bbb 2s forwards;
 
         img {
             width: 100px;
@@ -40,5 +42,13 @@ section.home {
             font-size: 2em;
         }
     }
+
+    @keyframes bbb {
+        100% {
+            margin-left: 0;
+        }
+
+    }
+
 
 }

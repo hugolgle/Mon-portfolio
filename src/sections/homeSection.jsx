@@ -2,7 +2,6 @@ import './homeSection.scss';
 
 export default function HomeSection() {
 
-
     return (
         <section id='home' className="section home">
             <img src="../public/images/imgHome.jpg" alt="" srcset="" />

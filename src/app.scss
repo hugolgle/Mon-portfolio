@@ -1,3 +1,5 @@
+@import './main.scss';
+
 #root {
   min-width: 100vh;
   margin: 0;
@@ -12,7 +14,17 @@ section {
   h1 {
     font-size: 3em;
     margin: 30px 0;
+    position: relative;
   }
+}
+
+section.section h1::before {
+  content: "";
+  position: absolute;
+  background-color: $colorSecondary;
+  width: 50px;
+  height: 5px;
+  bottom: 0;
 }
 
 section:nth-child(even) {

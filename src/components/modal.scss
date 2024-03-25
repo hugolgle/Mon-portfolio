@@ -21,7 +21,7 @@ div.overlay {
     }
 
     div.modal {
-        background-color: #565656;
+        background-color: $colorTertiary;
         width: 550px;
         height: 550px;
         border-radius: 15px;
@@ -29,9 +29,13 @@ div.overlay {
         transition: .3s;
         padding: 10px 20px;
 
+        h2 {
+            font-size: 2.5em;
+        }
+
         div.containModal {
             text-align: left;
-            font-size: 1.2em;
+            font-size: 1.4em;
 
             a {
                 text-decoration-line: underline;
@@ -41,7 +45,7 @@ div.overlay {
             }
 
             a:hover {
-                color: #906565;
+                color: $colorSecondary;
             }
         }
 

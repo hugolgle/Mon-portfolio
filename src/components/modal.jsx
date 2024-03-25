@@ -8,7 +8,7 @@ export default function Modal(props) {
     return (
         <div className={overlayClasses.join(' ')} onClick={props.btnClose}>
             <div className={modalClasses.join(' ')} onClick={(e) => e.stopPropagation()}>
-                <h1>{props.titre}</h1>
+                <h2>{props.titre}</h2>
                 <i onClick={props.btnClose} className="fa-solid fa-xmark"></i>
                 {props.children}
             </div>
