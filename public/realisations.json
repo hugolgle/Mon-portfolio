@@ -1,5 +1,5 @@
 {
-    "realisations": [
+    "realisationsBts": [
         {
             "id": "1",
             "title": "AP1-1-siteSIOVHB",
@@ -9,7 +9,7 @@
             "skills": "",
             "ressource": "",
             "date": "Septembre 2020",
-            "image": "./images/images_projet/projet_1.png"
+            "image": "./images/imgProjetBTS/projet_1.png"
         },
         {
             "id": "2",
@@ -18,9 +18,9 @@
             "mission": "Former les élèves et étudiants aux outils nécessaires pendant une séance sur poste informatique.",
             "context": "Des professeurs du lycée Basch ont constaté que beaucoup de leurs élèves et étudiants ne connaissaient pas ou ne maîtrisaient pas certains logiciels pourtant nécessaires à leurs apprentissages. Ils s’adressent à vous afin d’accompagner ces élèves dans leur formation.",
             "skills": "B1.4 – B1.5 – B1.6",
-            "ressource": "",
+            "ressource": "https://drive.google.com/drive/folders/11yQ5bA0q3tmo8Cft_jY3pJTmQRu4IN3N?usp=share_link",
             "date": "Octobre 2020",
-            "image": "./images/images_projet/projet_2.png"
+            "image": "./images/imgProjetBTS/projet_2.png"
         },
         {
             "id": "3",
@@ -29,9 +29,9 @@
             "mission": "Instalation VM Ubuntu et Windows - Laboratoire GSB – Contexte et infrastructure réseau",
             "context": "",
             "skills": "B1.1 – B1.5",
-            "ressource": "",
+            "ressource": "https://drive.google.com/drive/folders/16tk2vb4e4mORhbO8i6g4hZqRCC3Dyb4A?usp=share_link",
             "date": "Novembre 2020",
-            "image": "./images/images_projet/projet_3.jpg"
+            "image": "./images/imgProjetBTS/projet_3.jpg"
         },
         {
             "id": "4",
@@ -40,9 +40,9 @@
             "mission": "Prise de contrôle d’un système d’information.",
             "context": "La machine Kali joue le rôle de l’attaquant du serveur cible. L’objectif terminal est de récupérer les données stockées dans les bases de données du serveur cible, et in fine de les supprimer du serveur cible. Cet objectif terminal passera par la prise de contrôle à distance du serveur cible.",
             "skills": "B3.1 - B3.2 - B3.3 - B3.4 - B3.5",
-            "ressource": "",
+            "ressource": "https://drive.google.com/drive/folders/15Xk0MbADz_0kZYV-LM0DJ_2-AClmQK2R?usp=share_link",
             "date": "Décembre 2020",
-            "image": "./images/images_projet/projet_4.jpg"
+            "image": "./images/imgProjetBTS/projet_4.jpg"
         },
         {
             "id": "5",
@@ -51,9 +51,9 @@
             "mission": "Découverte de la gestion de projet.",
             "context": "Pour assurer les missions qui lui sont confiées, l’étudiant en ST SIO travaille dans un environnement de gestion de projet, en mode projet, notamment lors des AP. Il doit faire preuve d’initiative, communique en permanence avec les autres membres de l’équipe projet, des membres de l’organisation ou des partenaires, dans le cadre d’un travail collaboratif ; et rend compte régulièrement à son responsable hiérarchique ou fonctionnel tout au long de l’état d’avancement du projet.",
             "skills": "B1.3 - B1.4 – B3.1",
-            "ressource": "",
+            "ressource": "https://drive.google.com/drive/folders/1Rm7wrY2aIOW2Ix8Fc1LA0v6ZtPPH9JUP?usp=share_link",
             "date": "Janvier 2021",
-            "image": "./images/images_projet/projet_5.png"
+            "image": "./images/imgProjetBTS/projet_5.png"
         },
         {
             "id": "6",
@@ -62,9 +62,9 @@
             "mission": "Vous êtes mandaté par le RSI de VHB pour intégrer la gestion de la fiche de validation de stage dans l’application web HistoStage dans l’environnement de recette. Ce site sera publié sur le serveur de recette LAMPP sécurisé par transfert de fichier via Visual Studio Code. Les informations de la FV seront à intégrer ultérieurement dans l’application HistoStage en production.",
             "context": "Lycée VHB – Section STS-SIO",
             "skills": "B1.1 – B1.2 – B1.4 – B1.5 – B1.6 – B3.1 – B3.2 – B3.4 – B3.5",
-            "ressource": "",
+            "ressource": "https://drive.google.com/drive/folders/1BcYd3QRgaNpr3V43dAIZ6O0pY5hZGRD_?usp=sharing",
             "date": "Janvier 2021",
-            "image": "./images/images_projet/projet_6.jpg"
+            "image": "./images/imgProjetBTS/projet_6.jpg"
         },
         {
             "id": "7",
@@ -73,9 +73,9 @@
             "mission": "La solution consiste à s’appuyer sur l’API-Rest proposée par gitlab pour développer une application web spécifique permettant de sélectionner rapidement les ressources et d’appliquer la même action sur ces ressources.",
             "context": "Dans le contexte de la section STS-SIO du lycée VHB, certaines opérations sont à mener sur plusieurs projets ou plusieurs utilisateurs. Les opérations unitaires proposées par l’application web gitlab se révèlent donc très fastidieuses dans ce contexte.",
             "skills": "B1.1 – B1.2 – B1.4 – B1.5",
-            "ressource": "",
+            "ressource": "https://drive.google.com/drive/folders/12lQbJbsXNo5weLtu38IJOSLrifeF90hW?usp=sharing",
             "date": "Novembre 2021",
-            "image": "./images/images_projet/projet_7.png"
+            "image": "./images/imgProjetBTS/projet_7.png"
         },
         {
             "id": "8",
@@ -84,9 +84,9 @@
             "mission": "Projet d’évolutions sur les services web visant à offrir aux visiteurs médicaux de GSB l’ensemble des informations dont ils ont besoin lors de leurs visites : coordonnées des médecins, les rapports de visite ...",
             "context": "L’activité commerciale d’un laboratoire pharmaceutique est principalement réalisée par les visiteurs médicaux. En effet, un médicament remboursé par la sécurité sociale n’est jamais vendu directement au consommateur mais prescrit au patient par son médecin. Toute communication publicitaire sur les médicaments remboursés est d’ailleurs interdite par la loi. Il est donc important, pour l’industrie pharmaceutique, de promouvoir ses produits directement auprès des praticiens.",
             "skills": "B1.1 – B1.4",
-            "ressource": "",
+            "ressource": "https://drive.google.com/drive/folders/1V9aR4B7CYcjae-MBXZar_EY3nEHEBrtP?usp=sharing",
             "date": "Mars 2022",
-            "image": "./images/images_projet/projet_8.jpg"
+            "image": "./images/imgProjetBTS/projet_8.jpg"
         },
         {
             "id": "9",
@@ -95,9 +95,96 @@
             "mission": "Comme l’ensemble des tablettes utilisées par les visiteurs hébergera l’OS Android, il a été décidé de réaliser une application mobile native Android. Elle sera développée en langage Java avec accès distant aux données gérées par des services web de type REST. Les services web de type REST sont hébergés sur le poste de développement lors de la réalisation, puis sur le serveur de recette lors de la recette.",
             "context": "Le laboratoire Galaxy Swiss Bourdin – GSB – est amené dans ses différentes activités à contacter et visiter les médecins. Les visiteurs médicaux du laboratoire se déplacent afin de présenter les nouveaux produits pharmaceutiques et récolter différentes remarques des médecins concernant ces produits.",
             "skills": "B1.4",
-            "ressource": "",
+            "ressource": "https://drive.google.com/drive/folders/1XO959nFtzhzfac6uN4jKmdQTTJOUZbq5?usp=sharing",
             "date": "Mai 2022",
-            "image": "./images/images_projet/projet_9.png"
+            "image": "./images/imgProjetBTS/projet_9.jpg"
+        }
+    ],
+    "realisationsOC": [
+        {
+            "id": "1",
+            "title": "Booki",
+            "mission": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS.",
+            "context": "Vous débutez votre alternance en tant que développeur web au sein de la start-up Booki. L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, vous travaillez en étroite collaboration avec Sarah, la CTO, et Loïc, l’UI designer.",
+            "skills": {
+                "skill_1": "- Implémenter une interface responsive avec HTML et CSS",
+                "skill_2": "- Installer un environnement de développement front-end",
+                "skill_3": "- Intégrer du contenu conformément à une maquette avec HTML et CSS",
+                "skill_4": "",
+                "skill_5": ""
+            },
+            "ressource": "",
+            "techno": "HTML/CSS",
+            "date": "Octobre 2023",
+            "image": "./images/imgProjetOC/projet_1.jpg"
+        },
+        {
+            "id": "2",
+            "title": "Ohmyfood",
+            "mission": "Améliorez l'interface d'un site mobile avec des animations CSS.",
+            "context": "Vous avez intégré Ohmyfood en tant que développeur junior. Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. ",
+            "skills": {
+                "skill_1": "- Intégrer une maquette en mobile-first",
+                "skill_2": "- Mettre en œuvre des animations CSS",
+                "skill_3": "- Versionner son projet avec Git et Github",
+                "skill_4": "",
+                "skill_5": ""
+            },
+            "ressource": "",
+            "techno": "HTML/CSS",
+            "date": "Novembre 2023",
+            "image": "./images/imgProjetOC/projet_2.jpg"
+        },
+        {
+            "id": "3",
+            "title": "Sophie Buel",
+            "mission": "Créez une page web dynamique avec JavaScript.",
+            "context": "Vous travaillez comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé votre dernier projet avec un peu d'avance, vous êtes envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
+            "skills": {
+                "skill_1": "- Gérer les événements utilisateurs avec JavaScript",
+                "skill_2": "- Manipuler les éléments du DOM avec JavaScript",
+                "skill_3": "- Récupérer les données utilisateurs dans le JavaScript via des formulaires",
+                "skill_4": "",
+                "skill_5": ""
+            },
+            "ressource": "",
+            "techno": "HTML/CSS/JS",
+            "date": "Décembre 2023",
+            "image": "./images/imgProjetOC/projet_3.jpg"
+        },
+        {
+            "id": "4",
+            "title": "Kasa",
+            "mission": "Créez une application web de location immobilière avec React.",
+            "context": "Vous êtes développeur front-end en freelance pour Kasa, une entreprise de location d’appartements entre particuliers.Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.L'occasion parfaite pour vous d'ajouter une belle référence à votre portfolio de freelance !",
+            "skills": {
+                "skill_1": "- Configurer la navigation entre les pages de l'application avec React Router",
+                "skill_2": "- Développer des éléments de l'interface d'un site web grâce à des composants React",
+                "skill_3": "- Mettre en œuvre des animations CSS",
+                "skill_4": "- Développer une interface web avec Sass",
+                "skill_5": "- Initialiser une application avec Create React App"
+            },
+            "ressource": "",
+            "techno": "REACT",
+            "date": "Février 2024",
+            "image": "./images/imgProjetOC/projet_4.jpg"
+        },
+        {
+            "id": "4",
+            "title": "Argent Bank",
+            "mission": "Implémentez le front-end d'une application bancaire avec React.",
+            "context": "Vous êtes développeur front-end en freelance pour Kasa, une entreprise de location d’appartements entre particuliers.Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.L'occasion parfaite pour vous d'ajouter une belle référence à votre portfolio de freelance !",
+            "skills": {
+                "skill_1": "- Afficher les données du back end sur l'interface via des appels API",
+                "skill_2": "- Configurer des routes API pour la communication client / serveur",
+                "skill_3": "- Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front",
+                "skill_4": "",
+                "skill_5": ""
+            },
+            "ressource": "",
+            "techno": "REACT",
+            "date": "Mars 2024",
+            "image": "./images/imgProjetOC/projet_5.jpg"
         }
     ]
 }
