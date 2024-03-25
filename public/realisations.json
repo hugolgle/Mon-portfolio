@@ -1,0 +1,103 @@
+{
+    "realisations": [
+        {
+            "id": "1",
+            "title": "AP1-1-siteSIOVHB",
+            "semestre": "Semestre 1",
+            "mission": "",
+            "context": "",
+            "skills": "",
+            "ressource": "",
+            "date": "Septembre 2020",
+            "image": "./images/images_projet/projet_1.png"
+        },
+        {
+            "id": "2",
+            "title": "AP1-2-FormationAuxOutilsNumeriques",
+            "semestre": "Semestre 1",
+            "mission": "Former les élèves et étudiants aux outils nécessaires pendant une séance sur poste informatique.",
+            "context": "Des professeurs du lycée Basch ont constaté que beaucoup de leurs élèves et étudiants ne connaissaient pas ou ne maîtrisaient pas certains logiciels pourtant nécessaires à leurs apprentissages. Ils s’adressent à vous afin d’accompagner ces élèves dans leur formation.",
+            "skills": "B1.4 – B1.5 – B1.6",
+            "ressource": "",
+            "date": "Octobre 2020",
+            "image": "./images/images_projet/projet_2.png"
+        },
+        {
+            "id": "3",
+            "title": "AP1-3-GSB-InfraReseau",
+            "semestre": "Semestre 1",
+            "mission": "Instalation VM Ubuntu et Windows - Laboratoire GSB – Contexte et infrastructure réseau",
+            "context": "",
+            "skills": "B1.1 – B1.5",
+            "ressource": "",
+            "date": "Novembre 2020",
+            "image": "./images/images_projet/projet_3.jpg"
+        },
+        {
+            "id": "4",
+            "title": "AP-AtelierCyberSecurite",
+            "semestre": "Semestre 1",
+            "mission": "Prise de contrôle d’un système d’information.",
+            "context": "La machine Kali joue le rôle de l’attaquant du serveur cible. L’objectif terminal est de récupérer les données stockées dans les bases de données du serveur cible, et in fine de les supprimer du serveur cible. Cet objectif terminal passera par la prise de contrôle à distance du serveur cible.",
+            "skills": "B3.1 - B3.2 - B3.3 - B3.4 - B3.5",
+            "ressource": "",
+            "date": "Décembre 2020",
+            "image": "./images/images_projet/projet_4.jpg"
+        },
+        {
+            "id": "5",
+            "title": "AP2-0-DecouverteGestionProjets",
+            "semestre": "Semestre 2",
+            "mission": "Découverte de la gestion de projet.",
+            "context": "Pour assurer les missions qui lui sont confiées, l’étudiant en ST SIO travaille dans un environnement de gestion de projet, en mode projet, notamment lors des AP. Il doit faire preuve d’initiative, communique en permanence avec les autres membres de l’équipe projet, des membres de l’organisation ou des partenaires, dans le cadre d’un travail collaboratif ; et rend compte régulièrement à son responsable hiérarchique ou fonctionnel tout au long de l’état d’avancement du projet.",
+            "skills": "B1.3 - B1.4 – B3.1",
+            "ressource": "",
+            "date": "Janvier 2021",
+            "image": "./images/images_projet/projet_5.png"
+        },
+        {
+            "id": "6",
+            "title": "AP2-1-DeploiementServeurAppliWeb",
+            "semestre": "Semestre 2",
+            "mission": "Vous êtes mandaté par le RSI de VHB pour intégrer la gestion de la fiche de validation de stage dans l’application web HistoStage dans l’environnement de recette. Ce site sera publié sur le serveur de recette LAMPP sécurisé par transfert de fichier via Visual Studio Code. Les informations de la FV seront à intégrer ultérieurement dans l’application HistoStage en production.",
+            "context": "Lycée VHB – Section STS-SIO",
+            "skills": "B1.1 – B1.2 – B1.4 – B1.5 – B1.6 – B3.1 – B3.2 – B3.4 – B3.5",
+            "ressource": "",
+            "date": "Janvier 2021",
+            "image": "./images/images_projet/projet_6.jpg"
+        },
+        {
+            "id": "7",
+            "title": "AP3-1-Projet-GitLab-Admin",
+            "semestre": "Semestre 3",
+            "mission": "La solution consiste à s’appuyer sur l’API-Rest proposée par gitlab pour développer une application web spécifique permettant de sélectionner rapidement les ressources et d’appliquer la même action sur ces ressources.",
+            "context": "Dans le contexte de la section STS-SIO du lycée VHB, certaines opérations sont à mener sur plusieurs projets ou plusieurs utilisateurs. Les opérations unitaires proposées par l’application web gitlab se révèlent donc très fastidieuses dans ce contexte.",
+            "skills": "B1.1 – B1.2 – B1.4 – B1.5",
+            "ressource": "",
+            "date": "Novembre 2021",
+            "image": "./images/images_projet/projet_7.png"
+        },
+        {
+            "id": "8",
+            "title": "AP3-2-GSB_VisitesMedecins",
+            "semestre": "Semestre 3",
+            "mission": "Projet d’évolutions sur les services web visant à offrir aux visiteurs médicaux de GSB l’ensemble des informations dont ils ont besoin lors de leurs visites : coordonnées des médecins, les rapports de visite ...",
+            "context": "L’activité commerciale d’un laboratoire pharmaceutique est principalement réalisée par les visiteurs médicaux. En effet, un médicament remboursé par la sécurité sociale n’est jamais vendu directement au consommateur mais prescrit au patient par son médecin. Toute communication publicitaire sur les médicaments remboursés est d’ailleurs interdite par la loi. Il est donc important, pour l’industrie pharmaceutique, de promouvoir ses produits directement auprès des praticiens.",
+            "skills": "B1.1 – B1.4",
+            "ressource": "",
+            "date": "Mars 2022",
+            "image": "./images/images_projet/projet_8.jpg"
+        },
+        {
+            "id": "9",
+            "title": "AP4-1-GSB-VisMedAndroid",
+            "semestre": "Semestre 4",
+            "mission": "Comme l’ensemble des tablettes utilisées par les visiteurs hébergera l’OS Android, il a été décidé de réaliser une application mobile native Android. Elle sera développée en langage Java avec accès distant aux données gérées par des services web de type REST. Les services web de type REST sont hébergés sur le poste de développement lors de la réalisation, puis sur le serveur de recette lors de la recette.",
+            "context": "Le laboratoire Galaxy Swiss Bourdin – GSB – est amené dans ses différentes activités à contacter et visiter les médecins. Les visiteurs médicaux du laboratoire se déplacent afin de présenter les nouveaux produits pharmaceutiques et récolter différentes remarques des médecins concernant ces produits.",
+            "skills": "B1.4",
+            "ressource": "",
+            "date": "Mai 2022",
+            "image": "./images/images_projet/projet_9.png"
+        }
+    ]
+}

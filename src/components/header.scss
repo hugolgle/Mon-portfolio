@@ -1,0 +1,20 @@
+@import '../main.scss';
+
+header {
+    width: 100%;
+    @include display(flex, row, space-around, center);
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.48) 0px 4px 15px 3px;
+
+    div.nav {
+        padding: 20px 0;
+
+        a {
+            margin: 0 10px;
+            color: black;
+            font-size: 1.5em;
+        }
+    }
+}

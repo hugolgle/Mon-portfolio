@@ -1,0 +1,23 @@
+@import '../main.scss';
+
+div.containerAbout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    img {
+        height: 300px;
+        border-radius: 15px;
+    }
+
+    div.containerText {
+        background-color: aqua;
+        width: 500px;
+        padding: 20px;
+        text-align: left;
+        border-radius: 10px;
+        font-size: 1.2em;
+    }
+}
