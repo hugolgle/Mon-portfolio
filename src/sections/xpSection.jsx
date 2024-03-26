@@ -32,7 +32,7 @@ export default function XpSection() {
                                 modalIndex === index &&
                                 <Modal show="show" btnClose={handleCloseModal} titre={`${xp.type} - ${xp.title}`}>
                                     <div className="containModal">
-                                        <p><b>Mission:</b> {xp.mission}</p>
+                                        <p className='mission'><b>Mission:</b> {xp.mission}</p>
                                     </div>
                                     <div className="containModal">
                                         <p><b>Contexte:</b> {xp.context}</p>
@@ -41,7 +41,7 @@ export default function XpSection() {
                                     <div className="containModal">
                                         {xp.image.img2 !== "" && xp.text && xp.text.split('[IMG]').map((textPart, index) => (
                                             <React.Fragment key={index}>
-                                                {index > 0 && <img src={xp.image.img2} alt="Image" />} {/* Insérer l'image entre les parties du texte */}
+                                                {index > 0 && <img src={xp.image.img2} alt="Image" />}
                                                 {textPart.split('<br>').map((paragraph, idx) => (
                                                     <p key={idx}>{paragraph}</p>
                                                 ))}
