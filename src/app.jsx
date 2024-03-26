@@ -4,6 +4,7 @@ import HomeSection from './sections/homeSection.jsx';
 import AboutSection from './sections/aboutSection.jsx';
 import CareerSection from './sections/careerSection.jsx';
 import ProjectSection from './sections/projectSection.jsx';
+import XpSection from './sections/xpSection.jsx';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutSection />
       <CareerSection />
       <ProjectSection />
+      <XpSection />
       {/* <Contact /> */}
     </div>
   );

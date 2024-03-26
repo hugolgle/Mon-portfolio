@@ -1,0 +1,34 @@
+@import '../main.scss';
+
+section.parcours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.containerXpPro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+    div.boxXpPro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 250px;
+        padding: 10px;
+        background-color: $colorPrimary;
+        border-radius: 10px;
+        margin: 10px 20px;
+        box-shadow: -1px 64px 37px -61px rgba(0, 0, 0, 0.55);
+
+        div.skill p {
+            margin: 5px 0;
+        }
+    }
+}

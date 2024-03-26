@@ -21,8 +21,8 @@ div.overlay {
     }
 
     div.modal {
-        background-color: $colorTertiary;
-        width: 550px;
+        background-color: $colorPrimary;
+        width: 620px;
         height: 550px;
         border-radius: 15px;
         position: relative;
@@ -33,21 +33,71 @@ div.overlay {
             font-size: 2.5em;
         }
 
-        div.containModal {
-            text-align: left;
-            font-size: 1.4em;
+        div.contain {
+            overflow-y: auto;
+            height: 85%;
+            padding-right: 5px;
 
-            a {
-                text-decoration-line: underline;
-                color: #fff;
-                font-style: italic;
-                transition: .3s;
+            &::-webkit-scrollbar {
+                width: 7.5px;
             }
 
-            a:hover {
-                color: $colorSecondary;
+            &::-webkit-scrollbar-track {
+                background: #f1f1f1;
+                border-radius: 5px;
+            }
+
+            &::-webkit-scrollbar-thumb {
+                background: #888;
+                border-radius: 5px;
+            }
+
+            &::-webkit-scrollbar-thumb:hover {
+                background: #555;
+            }
+
+            div.containModal {
+                text-align: left;
+                font-size: 1.4em;
+
+                a {
+                    text-decoration-line: underline;
+                    color: #000;
+                    font-style: italic;
+                    transition: .3s;
+                    font-weight: 600;
+                }
+
+                a:hover {
+                    color: $colorSecondary;
+                }
+
+                h2.textMission {
+                    margin: 15px 0;
+                    font-size: 2em;
+                }
+
+                h2,
+                h3 {
+                    text-align: center;
+                }
+
+                img {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border-radius: 5px;
+                    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+                }
+
+                p.description {
+                    text-align: center;
+                    font-size: 0.8em;
+                    font-style: italic;
+                }
             }
         }
+
 
         &.show {
             opacity: 1;

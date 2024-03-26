@@ -28,7 +28,7 @@ export default function Header() {
                 <a href="#about">Présentation</a>
                 <a href="#parcours">Parcours</a>
                 <a href="#project">Réalisations</a>
-                <a href="#proxp">Expériences professionelles</a>
+                <a href="#xpPro">Expériences professionelles</a>
                 <a href="#skills">Compétences</a>
                 <a href="#contact">Contact</a>
             </div>

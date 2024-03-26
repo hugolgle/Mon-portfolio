@@ -28,5 +28,5 @@ section.section h1::before {
 }
 
 section:nth-child(even) {
-  background-color: rgb(227, 227, 227);
+  background-color: $colorPrimary;
 }

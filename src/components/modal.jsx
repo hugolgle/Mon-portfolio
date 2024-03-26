@@ -10,7 +10,10 @@ export default function Modal(props) {
             <div className={modalClasses.join(' ')} onClick={(e) => e.stopPropagation()}>
                 <h2>{props.titre}</h2>
                 <i onClick={props.btnClose} className="fa-solid fa-xmark"></i>
-                {props.children}
+                <div className="contain">
+                    {props.children}
+                </div>
+
             </div>
         </div>
     );
