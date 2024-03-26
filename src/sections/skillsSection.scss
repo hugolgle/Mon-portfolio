@@ -1,1 +1,9 @@
 @import '../main.scss';
+
+div.containerSkills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}

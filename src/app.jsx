@@ -1,5 +1,6 @@
 import './app.scss';
 import Header from './components/header.jsx';
+import ArrowTop from './components/arrowTop.jsx';
 import HomeSection from './sections/homeSection.jsx';
 import AboutSection from './sections/aboutSection.jsx';
 import CareerSection from './sections/careerSection.jsx';
@@ -17,6 +18,7 @@ function App() {
       <ProjectSection />
       <XpSection />
       <SkillsSection />
+      <ArrowTop />
     </div>
   );
 }

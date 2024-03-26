@@ -1,0 +1,20 @@
+@import '../main.scss';
+
+div.containerProgressBar {
+    width: 100%;
+    height: 2px;
+    border-radius: 50px;
+    background-color: $colorPrimary;
+    position: relative;
+    margin: 2px 0;
+
+    div.progressBar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 50px;
+        background-color: $colorSecondary;
+        height: 100%;
+        box-shadow: 0px 0px 5px 0.5px $colorSecondary;
+    }
+}
