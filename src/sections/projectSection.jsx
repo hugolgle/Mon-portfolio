@@ -36,7 +36,7 @@ export default function ProjectSection() {
 
     }
 
-    const [btnFilter, setBtnFilter] = useState();
+    const [btnFilter, setBtnFilter] = useState("");
 
     const handleBtnFilter = (ecole) => {
         setBtnFilter(ecole);
@@ -63,27 +63,30 @@ export default function ProjectSection() {
                                 <div className="containModal">
                                     <p><b>Contexte:</b> {realisation.context}</p>
                                 </div>
-                                {btnFilter === "BTS SIO" && (
-                                    <div className="containModal">
-                                        <p><b>Compétences:</b> {realisation.skills}</p>
-                                    </div>
-                                )}
-                                {btnFilter === "OpenClassrooms" && (
+                                {realisation.ecole === "BTS SIO" ? (
+                                    <>
+                                        <div className="containModal">
+                                            <p><b>Compétences:</b> {realisation.skills}</p>
+                                        </div>
+                                        <div className="containModal">
+                                            <a href={realisation.ressource} target="_blank" rel="noopener noreferrer">Ressources</a> - <a href="../public/images/fichedecompetences.pdf" target="_blank" rel="noopener noreferrer">Fiche de compétences</a>
+                                        </div>
+                                    </>
+                                ) : null}
+                                {realisation.ecole === "OpenClassrooms" ? (
                                     <>
                                         <div className="containModal">
                                             <p><b>Technologies:</b> {realisation.techno}</p>
                                         </div>
                                         <div className="containModal">
-                                            <p><b>Compétences:</b> </p>
-                                            {realisation.skills.map((skill, index) => (
-                                                <p key={index}>{skill.skill}</p>
-                                            ))}
+                                            <b>Compétences:</b>
+                                            {realisation.skills.map(skill => <p>{skill.skill}</p>)}
+                                        </div>
+                                        <div className="containModal">
+                                            <a href={realisation.ressource} target="_blank" rel="noopener noreferrer">Ressources</a>
                                         </div>
                                     </>
-                                )}
-                                <div className="containModal">
-                                    <a href={realisation.ressource} target="_blank" rel="noopener noreferrer">Ressources</a> - <a href="../public/images/fichedecompetences.pdf" target="_blank" rel="noopener noreferrer">Fiche de compétences</a>
-                                </div>
+                                ) : null}
                             </Modal>
 
                         }
@@ -101,6 +104,6 @@ export default function ProjectSection() {
                     </div>
                 ))}
             </div>
-        </section>
+        </section >
     );
 }
