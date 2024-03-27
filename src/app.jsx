@@ -7,6 +7,7 @@ import CareerSection from './sections/careerSection.jsx';
 import ProjectSection from './sections/projectSection.jsx';
 import XpSection from './sections/xpSection.jsx';
 import SkillsSection from './sections/skillsSection.jsx';
+import ContactSection from './sections/contactSection.jsx';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <ProjectSection />
       <XpSection />
       <SkillsSection />
+      <ContactSection />
       <ArrowTop />
     </div>
   );

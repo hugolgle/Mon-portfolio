@@ -1,0 +1,112 @@
+@import '../main.scss';
+
+div.containerContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    div.containerCarres {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-right: -40px;
+        z-index: 1;
+
+        div.carre,
+        a.carre {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(255, 255, 255);
+            width: 170px;
+            height: 170px;
+            margin: 8px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.69);
+            transition: .4s;
+            font-size: 1.3em;
+            font-weight: 900;
+            cursor: pointer;
+            color: #000000;
+
+            &:hover {
+                background-color: $colorSecondary;
+            }
+
+            i {
+                font-size: 2em;
+            }
+
+            &:hover {
+                color: #ffffff;
+            }
+        }
+    }
+
+    div.containerform {
+        background-color: #dddddd;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.69);
+        width: 490px;
+        height: 470px;
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        padding: 0 80px;
+
+        form {
+            margin-right: -40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+
+            input {
+                margin: 5px;
+                height: 30px;
+                width: 100%;
+                border: none;
+                border-radius: 5px;
+                padding: 5px;
+                outline: none;
+                /* box-shadow: 0px 0px 13px -3px rgba(0,0,0,0.9); */
+                cursor: text;
+            }
+
+            textarea {
+                margin: 5px;
+                height: 90px;
+                width: 100%;
+                border: none;
+                border-radius: 5px;
+                resize: initial;
+                padding: 5px;
+                outline: none;
+                /* box-shadow: 0px 0px 13px -3px rgba(0,0,0,0.9); */
+                cursor: text;
+            }
+
+            input::placeholder,
+            textarea::placeholder {
+                font-weight: 700;
+            }
+
+            button {
+                width: 75%;
+                margin-top: 20px;
+            }
+        }
+    }
+
+
+
+}
