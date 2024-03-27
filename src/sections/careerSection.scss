@@ -1,19 +1,13 @@
 @import '../main.scss';
 
 section.parcours {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include display(flex, column, center, center);
 }
 
 div.containerParcours {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include display(flex, column, center, center);
     gap: 20px;
     width: auto;
-    align-items: center;
     gap: 20px;
     position: relative;
 
@@ -22,7 +16,7 @@ div.containerParcours {
         height: 90%;
         width: 3px;
         background-color: $colorSecondary;
-        display: flex;
+        @include display(flex, column, normal, normal);
         border-radius: 15px 15px 0 0;
         margin-left: 13.5px;
         left: 0;
@@ -30,9 +24,7 @@ div.containerParcours {
     }
 
     div.boxParcour {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+        @include display(flex, row, center, center);
 
         div.rond {
             width: 30px;
@@ -48,8 +40,7 @@ div.containerParcours {
             background-color: $colorPrimary;
             margin-left: 40px;
             border-radius: 15px;
-            display: flex;
-            flex-direction: column;
+            @include display(flex, column, normal, normal);
             box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.75);
 
             h3 {

@@ -18,7 +18,7 @@ header {
 
     div.nav {
         padding: 20px 0;
-        display: flex;
+        @include display(flex, row, normal, normal);
 
         a {
             margin: 0 10px;
