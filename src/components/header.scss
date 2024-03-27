@@ -4,7 +4,7 @@ header {
     width: 100%;
     @include display(flex, row, space-around, center);
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     transition: .3s;
 
     img {

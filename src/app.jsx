@@ -8,6 +8,7 @@ import ProjectSection from './sections/projectSection.jsx';
 import XpSection from './sections/xpSection.jsx';
 import SkillsSection from './sections/skillsSection.jsx';
 import ContactSection from './sections/contactSection.jsx';
+import Footer from './components/footer.jsx';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <SkillsSection />
       <ContactSection />
       <ArrowTop />
+      <Footer />
     </div>
   );
 }

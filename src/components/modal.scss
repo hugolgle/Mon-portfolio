@@ -6,7 +6,7 @@ div.overlay {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.474);
     top: 0;
-    z-index: 1;
+    z-index: 3;
     left: 0;
     opacity: 0;
     visibility: visible;
@@ -118,11 +118,13 @@ div.overlay {
             margin: 15px;
             cursor: pointer;
             transition: .3s;
+            font-size: 2em;
+
+            &:hover {
+                transform: scale(1.2) rotate(90deg);
+            }
         }
 
-        i:hover {
-            transform: scale(1.2) rotate(90deg);
-        }
     }
 }
 

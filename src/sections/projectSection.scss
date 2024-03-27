@@ -42,6 +42,12 @@ div.containerProject {
 
                 i {
                     cursor: pointer;
+                    font-size: 2em;
+                    transition: .3s;
+
+                    &:hover {
+                        transform: rotate(90deg) scale(1.1);
+                    }
                 }
             }
         }

@@ -24,9 +24,9 @@ export default function XpSection() {
                 {
                     xpPro.map((xp, index) => (
                         <div className="boxXpPro" key={index}>
-                            <p>{xp.type} - {xp.domaine} - {xp.date}</p>
-                            <h2>{xp.title}</h2>
-                            <h3>Mission : {xp.mission}</h3>
+                            <p className='box'>{xp.type} - {xp.domaine} - {xp.date}</p>
+                            <h2 className='box'>{xp.title}</h2>
+                            <h3 className='box'>Mission : {xp.mission}</h3>
                             <Button title="En savoir plus" action={() => handleOpenModal(index)} />
                             {
                                 modalIndex === index &&

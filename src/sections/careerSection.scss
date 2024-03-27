@@ -21,7 +21,7 @@ div.containerParcours {
         position: absolute;
         height: 90%;
         width: 3px;
-        background-color: $colorTertiary;
+        background-color: $colorSecondary;
         display: flex;
         border-radius: 15px 15px 0 0;
         margin-left: 13.5px;
@@ -38,7 +38,7 @@ div.containerParcours {
             width: 30px;
             height: 30px;
             border-radius: 50px;
-            background-color: $colorTertiary;
+            background-color: $colorSecondary;
         }
 
         div.boxText {
@@ -60,7 +60,7 @@ div.containerParcours {
                 width: 50px;
                 height: 3px;
                 border-radius: 50px;
-                background-color: $colorTertiary;
+                background-color: $colorSecondary;
                 border: none;
             }
 
