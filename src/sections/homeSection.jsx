@@ -6,7 +6,6 @@ export default function HomeSection() {
     const age = calculerAge(2002)
     return (
         <section id='home' className="section home">
-            <img src="../public/images/imgHome.jpg" alt="" srcset="" />
             <div className="containerLeft">
                 <img src="../public/images/memoji.png" alt="" srcset="" />
                 <h1>Étudiant de {age} ans</h1>

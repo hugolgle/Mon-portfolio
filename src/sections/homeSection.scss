@@ -2,12 +2,9 @@
 
 section.home {
     padding: 0;
-    background-color: rgb(227, 227, 227);
-
-    img {
-        width: 100%;
-        height: 100vh;
-    }
+    background-image: url(../../public/images/imgHome.jpg);
+    background-size: cover;
+    height: 100vh;
 
     div.containerLeft {
         width: 50vw;
@@ -51,4 +48,14 @@ section.home {
     }
 
 
+}
+
+@media screen and (max-width: 1080px) {
+    section.home {
+        background-image: url(../../public/images/imgHomeResp.jpg);
+
+        div.containerLeft {
+            width: 100vw;
+        }
+    }
 }
