@@ -3,6 +3,6 @@ import './button.scss';
 
 export default function Button(props) {
     return (
-        <button type='submit' onClick={props.action}>{props.title}</button>
+        <button type='submit' className={props.className} onClick={props.action} value={props.value}>{props.title}</button>
     );
 }

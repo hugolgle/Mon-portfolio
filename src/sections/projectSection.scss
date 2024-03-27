@@ -36,6 +36,7 @@ div.containerProject {
                 opacity: 0;
                 transition: .5s;
                 color: #fff;
+                font-size: 1.4em;
 
                 i {
                     cursor: pointer;
@@ -55,12 +56,8 @@ div.containerProject {
             @include display(flex, column, center, center);
 
             h3 {
-                font-size: 1.4em;
+                font-size: 1.8em;
                 margin: 8px 0;
-            }
-
-            p {
-                font-size: 1.2em;
             }
         }
     }

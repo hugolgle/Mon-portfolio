@@ -10,11 +10,27 @@ button {
     cursor: pointer;
     transition: .4s;
     padding: 10px 15px;
-}
 
-button:hover {
-    background-color: black;
-    color: white;
-    box-shadow: -1px 20px 15px -15px #000000;
-    scale: 0.95;
+    &.btnFilter {
+        margin: 10px;
+        padding: 5px 12px;
+
+        &:hover {
+            background-color: $colorSecondary;
+            scale: 0.95;
+            box-shadow: none;
+        }
+    }
+
+    &.active {
+        background-color: $colorSecondary;
+        color: white;
+    }
+
+    &:hover {
+        background-color: black;
+        color: white;
+        box-shadow: -1px 20px 15px -15px #000000;
+        scale: 0.95;
+    }
 }

@@ -1,7 +1,8 @@
 {
-    "realisationsBts": [
+    "realisations": [
         {
             "id": "1",
+            "ecole": "BTS SIO",
             "title": "AP1-1-siteSIOVHB",
             "semestre": "Semestre 1",
             "mission": "",
@@ -13,6 +14,7 @@
         },
         {
             "id": "2",
+            "ecole": "BTS SIO",
             "title": "AP1-2-FormationAuxOutilsNumeriques",
             "semestre": "Semestre 1",
             "mission": "Former les élèves et étudiants aux outils nécessaires pendant une séance sur poste informatique.",
@@ -24,6 +26,7 @@
         },
         {
             "id": "3",
+            "ecole": "BTS SIO",
             "title": "AP1-3-GSB-InfraReseau",
             "semestre": "Semestre 1",
             "mission": "Instalation VM Ubuntu et Windows - Laboratoire GSB – Contexte et infrastructure réseau",
@@ -35,6 +38,7 @@
         },
         {
             "id": "4",
+            "ecole": "BTS SIO",
             "title": "AP-AtelierCyberSecurite",
             "semestre": "Semestre 1",
             "mission": "Prise de contrôle d’un système d’information.",
@@ -46,6 +50,7 @@
         },
         {
             "id": "5",
+            "ecole": "BTS SIO",
             "title": "AP2-0-DecouverteGestionProjets",
             "semestre": "Semestre 2",
             "mission": "Découverte de la gestion de projet.",
@@ -57,6 +62,7 @@
         },
         {
             "id": "6",
+            "ecole": "BTS SIO",
             "title": "AP2-1-DeploiementServeurAppliWeb",
             "semestre": "Semestre 2",
             "mission": "Vous êtes mandaté par le RSI de VHB pour intégrer la gestion de la fiche de validation de stage dans l’application web HistoStage dans l’environnement de recette. Ce site sera publié sur le serveur de recette LAMPP sécurisé par transfert de fichier via Visual Studio Code. Les informations de la FV seront à intégrer ultérieurement dans l’application HistoStage en production.",
@@ -68,6 +74,7 @@
         },
         {
             "id": "7",
+            "ecole": "BTS SIO",
             "title": "AP3-1-Projet-GitLab-Admin",
             "semestre": "Semestre 3",
             "mission": "La solution consiste à s’appuyer sur l’API-Rest proposée par gitlab pour développer une application web spécifique permettant de sélectionner rapidement les ressources et d’appliquer la même action sur ces ressources.",
@@ -79,6 +86,7 @@
         },
         {
             "id": "8",
+            "ecole": "BTS SIO",
             "title": "AP3-2-GSB_VisitesMedecins",
             "semestre": "Semestre 3",
             "mission": "Projet d’évolutions sur les services web visant à offrir aux visiteurs médicaux de GSB l’ensemble des informations dont ils ont besoin lors de leurs visites : coordonnées des médecins, les rapports de visite ...",
@@ -90,6 +98,7 @@
         },
         {
             "id": "9",
+            "ecole": "BTS SIO",
             "title": "AP4-1-GSB-VisMedAndroid",
             "semestre": "Semestre 4",
             "mission": "Comme l’ensemble des tablettes utilisées par les visiteurs hébergera l’OS Android, il a été décidé de réaliser une application mobile native Android. Elle sera développée en langage Java avec accès distant aux données gérées par des services web de type REST. Les services web de type REST sont hébergés sur le poste de développement lors de la réalisation, puis sur le serveur de recette lors de la recette.",
@@ -98,11 +107,10 @@
             "ressource": "https://drive.google.com/drive/folders/1XO959nFtzhzfac6uN4jKmdQTTJOUZbq5?usp=sharing",
             "date": "Mai 2022",
             "image": "./images/imgProjetBTS/projet_9.jpg"
-        }
-    ],
-    "realisationsOC": [
+        },
         {
-            "id": "1",
+            "id": "10",
+            "ecole": "OpenClassrooms",
             "title": "Booki",
             "mission": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS.",
             "context": "Vous débutez votre alternance en tant que développeur web au sein de la start-up Booki. L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, vous travaillez en étroite collaboration avec Sarah, la CTO, et Loïc, l’UI designer.",
@@ -126,7 +134,8 @@
             "image": "./images/imgProjetOC/projet_1.jpg"
         },
         {
-            "id": "2",
+            "id": "11",
+            "ecole": "OpenClassrooms",
             "title": "Ohmyfood",
             "mission": "Améliorez l'interface d'un site mobile avec des animations CSS.",
             "context": "Vous avez intégré Ohmyfood en tant que développeur junior. Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. ",
@@ -150,7 +159,8 @@
             "image": "./images/imgProjetOC/projet_2.jpg"
         },
         {
-            "id": "3",
+            "id": "12",
+            "ecole": "OpenClassrooms",
             "title": "Sophie Buel",
             "mission": "Créez une page web dynamique avec JavaScript.",
             "context": "Vous travaillez comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé votre dernier projet avec un peu d'avance, vous êtes envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
@@ -174,7 +184,8 @@
             "image": "./images/imgProjetOC/projet_3.jpg"
         },
         {
-            "id": "4",
+            "id": "13",
+            "ecole": "OpenClassrooms",
             "title": "Kasa",
             "mission": "Créez une application web de location immobilière avec React.",
             "context": "Vous êtes développeur front-end en freelance pour Kasa, une entreprise de location d’appartements entre particuliers.Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.L'occasion parfaite pour vous d'ajouter une belle référence à votre portfolio de freelance !",
@@ -206,7 +217,8 @@
             "image": "./images/imgProjetOC/projet_4.jpg"
         },
         {
-            "id": "4",
+            "id": "14",
+            "ecole": "OpenClassrooms",
             "title": "Argent Bank",
             "mission": "Implémentez le front-end d'une application bancaire avec React.",
             "context": "Vous êtes développeur front-end en freelance pour Kasa, une entreprise de location d’appartements entre particuliers.Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.L'occasion parfaite pour vous d'ajouter une belle référence à votre portfolio de freelance !",
