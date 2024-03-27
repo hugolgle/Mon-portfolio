@@ -22,3 +22,18 @@ div.containerAbout {
         }
     }
 }
+
+@media screen and (max-width: 1080px) {
+    div.containerAbout {
+        @include display(flex, column, center, center);
+
+        img {
+            height: 200px;
+        }
+
+        div.containerText {
+            width: 400px;
+            border-radius: 10px;
+        }
+    }
+}
