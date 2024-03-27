@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './skillsSection.scss';
 
 import BoxSkills from '../components/boxSkills';
@@ -6,8 +6,6 @@ import ProgressBar from '../components/progressBar';
 import Button from '../components/button';
 
 export default function SkillsSection() {
-
-
     return (
         <section id='skills' className="section skills">
             <h1>Compétences</h1>
