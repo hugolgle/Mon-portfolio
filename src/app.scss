@@ -32,6 +32,6 @@ section.section h1::before {
   bottom: 0;
 }
 
-section:nth-child(odd) {
+section:nth-child(even) {
   background-color: $colorPrimary;
 }
