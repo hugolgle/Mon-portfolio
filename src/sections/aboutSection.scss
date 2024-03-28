@@ -23,7 +23,7 @@ div.containerAbout {
     }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 600px) {
     div.containerAbout {
         @include display(flex, column, center, center);
 
@@ -32,8 +32,22 @@ div.containerAbout {
         }
 
         div.containerText {
-            width: 400px;
-            border-radius: 10px;
+            width: 100%;
+            text-align: left;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px) {
+    div.containerAbout {
+
+        img {
+            height: 300px;
+        }
+
+        div.containerText {
+            width: 60%;
+            text-align: left;
         }
     }
 }

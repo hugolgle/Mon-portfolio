@@ -71,3 +71,47 @@ div.containerProject {
         opacity: 1;
     }
 }
+
+
+@media screen and (max-width: 1024px) {
+    div.containerProject {
+        grid-template-columns: auto auto;
+        gap: 20px;
+
+        div.containerRealisation {
+
+            div.img {
+                height: 75%;
+
+                div.containHover {
+                    visibility: visible;
+                    opacity: 1;
+                }
+
+                img {
+                    object-fit: cover;
+                    filter: brightness(.35);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.containerProject {
+        grid-template-columns: auto;
+        gap: 10px;
+
+        div.containerRealisation {
+            height: 95%;
+
+            div.img {
+                height: 75%;
+
+                img {
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}

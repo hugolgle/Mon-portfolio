@@ -29,6 +29,11 @@ div.overlay {
         transition: .3s;
         padding: 10px 20px;
 
+        @media screen and (max-width: 480px) {
+            width: 95%;
+            max-height: auto;
+        }
+
         h2 {
             font-size: 2.5em;
         }
@@ -37,6 +42,11 @@ div.overlay {
             overflow-y: auto;
             height: 85%;
             padding-right: 5px;
+
+            @media screen and (max-width: 480px) {
+                height: 80%;
+            }
+
 
             &::-webkit-scrollbar {
                 width: 7.5px;
@@ -88,6 +98,10 @@ div.overlay {
                     margin-right: auto;
                     border-radius: 5px;
                     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+
+                    @media screen and (max-width: 480px) {
+                        width: 95%;
+                    }
                 }
 
                 p.description {

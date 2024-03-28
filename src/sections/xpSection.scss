@@ -31,3 +31,14 @@ div.containerXpPro {
         }
     }
 }
+
+@media screen and (max-width: 480px) {
+    div.containerXpPro {
+        @include display(flex, column, center, center);
+
+        div.boxXpPro {
+            @include display(flex, column, center, center);
+            width: 100%;
+        }
+    }
+}

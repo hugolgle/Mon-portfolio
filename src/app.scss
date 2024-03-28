@@ -1,7 +1,7 @@
 @import './main.scss';
 
 #root {
-  min-width: 100vh;
+  // min-width: 100vh;
   margin: 0;
   text-align: center;
 }
@@ -10,6 +10,11 @@ section {
   position: relative;
   padding: 50px;
   min-height: 100vh;
+
+  @media screen and (max-width: 480px) {
+    min-height: auto;
+    padding: 30px 10px;
+  }
 
   h1 {
     font-size: 3em;
