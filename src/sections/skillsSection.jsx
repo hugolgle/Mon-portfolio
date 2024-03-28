@@ -50,7 +50,7 @@ export default function SkillsSection() {
                     <p>Windows, Linux</p>
                 </BoxSkills>
             </div>
-            <a href="./public/images/CV.pdf" target="_blank" rel="noopener noreferrer"><Button title="Voir mon CV" /></a>
+            <a href="./images/CV.pdf" target="_blank" rel="noopener noreferrer"><Button title="Voir mon CV" /></a>
         </section >
     );
 }
