@@ -128,7 +128,7 @@
                     "skill": "- Intégrer du contenu conformément à une maquette avec HTML et CSS"
                 }
             ],
-            "ressource": "",
+            "ressource": "https://github.com/hugolgle/booki",
             "techno": "HTML/CSS",
             "date": "Octobre 2023",
             "image": "./images/imgProjetOC/projet_1.jpg"
@@ -153,7 +153,7 @@
                     "skill": "- Versionner son projet avec Git et Github"
                 }
             ],
-            "ressource": "",
+            "ressource": "https://github.com/hugolgle/ohmyfood",
             "techno": "HTML/CSS",
             "date": "Novembre 2023",
             "image": "./images/imgProjetOC/projet_2.jpg"
@@ -178,7 +178,7 @@
                     "skill": "- Récupérer les données utilisateurs dans le JavaScript via des formulaires"
                 }
             ],
-            "ressource": "",
+            "ressource": "https://github.com/hugolgle/Sophie-bluel",
             "techno": "HTML/CSS/JS",
             "date": "Décembre 2023",
             "image": "./images/imgProjetOC/projet_3.jpg"
@@ -211,7 +211,7 @@
                     "skill": "- Initialiser une application avec Create React App"
                 }
             ],
-            "ressource": "",
+            "ressource": "https://github.com/hugolgle/kasa",
             "techno": "REACT",
             "date": "Février 2024",
             "image": "./images/imgProjetOC/projet_4.jpg"
@@ -236,7 +236,7 @@
                     "skill": "- Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front"
                 }
             ],
-            "ressource": "",
+            "ressource": "https://github.com/hugolgle/ArgentBank-website",
             "techno": "REACT",
             "date": "Mars 2024",
             "image": "./images/imgProjetOC/projet_5.jpg"

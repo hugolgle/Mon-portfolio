@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="networks">
                 <a href="https://github.com/Hugolgle" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
             </div>
-            <p><i class="fa-regular fa-copyright"></i> 2023 Hugo LG, Tous droits réservés.</p>
+            <p><i class="fa-regular fa-copyright"></i> 2023 Hugo L, Tous droits réservés.</p>
 
         </footer>
     </>;

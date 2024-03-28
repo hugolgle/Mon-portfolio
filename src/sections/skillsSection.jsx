@@ -41,7 +41,7 @@ export default function SkillsSection() {
                     <h3>Développement</h3>
                     <p>Visual Studio Code</p>
                     <h3>Projet</h3>
-                    <p>Gitlab, GitHub, Git, Gantt</p>
+                    <p>Gitlab, GitHub, Git, Gantt, Trello</p>
                     <h3>Gestion de patrimoine</h3>
                     <p>GLPI</p>
                 </BoxSkills>
@@ -50,7 +50,7 @@ export default function SkillsSection() {
                     <p>Windows, Linux</p>
                 </BoxSkills>
             </div>
-            <a href="../../public/images/CV.pdf" target="_blank" rel="noopener noreferrer"><Button title="Voir mon CV" /></a>
+            <a href="./public/images/CV.pdf" target="_blank" rel="noopener noreferrer"><Button title="Voir mon CV" /></a>
         </section >
     );
 }

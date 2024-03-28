@@ -34,6 +34,10 @@ div.overlay {
             max-height: auto;
         }
 
+        @media screen and (max-height: 480px) {
+            max-height: 95%;
+        }
+
         h2 {
             font-size: 2.5em;
         }
@@ -45,6 +49,10 @@ div.overlay {
 
             @media screen and (max-width: 480px) {
                 height: 80%;
+            }
+
+            @media screen and (max-height: 480px) {
+                height: 75%;
             }
 
 

@@ -22,9 +22,9 @@ export default function ContactSection() {
                         <p>07 83 05 97 44</p>
                     </a>
 
-                    <a href="mailto:hugo56.lg@gmail.com" className="carre" target="_blank">
+                    <a href="mailto:hugo.web56@gmail.com" className="carre" target="_blank">
                         <p><i className="fa-solid fa-envelope"></i></p>
-                        <p>hugo56.lg@gmail.com</p>
+                        <p>hugo.web56@gmail.com</p>
                     </a>
                 </div>
             </div>

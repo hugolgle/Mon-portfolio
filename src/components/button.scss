@@ -10,6 +10,7 @@ button {
     cursor: pointer;
     transition: .4s;
     padding: 10px 15px;
+    color: #000000;
 
     &.btnFilter {
         margin: 10px;
@@ -28,7 +29,7 @@ button {
     }
 
     &:hover {
-        background-color: black;
+        background-color: #000000;
         color: white;
         box-shadow: -1px 20px 15px -15px #000000;
         scale: 0.95;
