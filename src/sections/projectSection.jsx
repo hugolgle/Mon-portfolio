@@ -69,7 +69,7 @@ export default function ProjectSection() {
                                             <p><b>Compétences:</b> {realisation.skills}</p>
                                         </div>
                                         <div className="containModal">
-                                            <a href={realisation.ressource} target="_blank" rel="noopener noreferrer">Ressources</a> - <a href="./public/images/fichedecompetences.pdf" target="_blank" rel="noopener noreferrer">Fiche de compétences</a>
+                                            <a href={realisation.ressource} target="_blank" rel="noopener noreferrer">Ressources</a> - <a href="./images/fichedecompetences.pdf" target="_blank" rel="noopener noreferrer">Fiche de compétences</a>
                                         </div>
                                     </>
                                 ) : null}

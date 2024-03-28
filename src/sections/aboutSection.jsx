@@ -4,7 +4,7 @@ import calculerAge from '../utils/function';
 
 export default function AboutSection() {
 
-    const age = calculerAge(2002);
+    const age = calculerAge(2002, 7);
 
     return (
         <section id='about' className="section about">

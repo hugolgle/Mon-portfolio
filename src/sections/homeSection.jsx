@@ -3,7 +3,7 @@ import './homeSection.scss';
 import calculerAge from '../utils/function';
 
 export default function HomeSection() {
-    const age = calculerAge(2002)
+    const age = calculerAge(2002, 7)
     return (
         <section id='home' className="section home">
             <div className="containerLeft">
