@@ -1,7 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './loader.scss';
 
 export default function Loader() {
+    useEffect(() => {
+        const loader = document.querySelector('.loader');
+
+        const handleLoad = () => {
+            loader.classList.add('fondu-out');
+        };
+
+        window.addEventListener('load', handleLoad);
+
+        return () => {
+            window.removeEventListener('load', handleLoad);
+        };
+    }, []);
 
     return (
         <div className="loader">

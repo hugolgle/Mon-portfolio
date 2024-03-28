@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './header.scss';
 import { Outlet } from 'react-router-dom'
+import Loader from './loader.jsx';
 
 export default function Header() {
 
@@ -31,6 +32,8 @@ export default function Header() {
     }
 
     return <>
+
+        <Loader />
         <header>
             <a href="/"><img src="./images/icone.png" alt="logo" /></a>
             <button onClick={clickHamburger ? handleCloseHamburger : handleOpenHamburger} className={`hamburger ${clickHamburger ? "open" : ""}`} type="button" aria-label="Toggle navigation" aria-expanded="false">
