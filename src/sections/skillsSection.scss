@@ -11,7 +11,7 @@ div.containerSkills {
 
 @media screen and (max-width: 768px) {
     div.containerSkills {
-        grid-template-columns: auto auto;
+        grid-template-columns: 50% 50%;
     }
 }
 

@@ -10,11 +10,12 @@ export default function ContactSection() {
                         <p><i className="fa-sharp fa-solid fa-location-dot"></i></p>
                         <p>56 MORBIHAN</p>
                     </a>
-
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d665526.4385208865!2d-3.2535706177047827!3d47.88045745614973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x481022b4db31c689%3A0x30ca5cd36df2900!2sMorbihan!5e0!3m2!1sfr!2sfr!4v1664443085344!5m2!1sfr!2sfr"
-                        loading='lazy' referrerPolicy="no-referrer-when-downgrade">
-                    </iframe>
+                    <div className="carre">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d665526.4385208865!2d-3.2535706177047827!3d47.88045745614973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x481022b4db31c689%3A0x30ca5cd36df2900!2sMorbihan!5e0!3m2!1sfr!2sfr!4v1664443085344!5m2!1sfr!2sfr"
+                            loading='lazy' referrerPolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
 
                     <a href="tel:0783059744" className="carre">
                         <p><i className="fa-solid fa-phone"></i></p>

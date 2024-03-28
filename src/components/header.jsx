@@ -32,7 +32,7 @@ export default function Header() {
 
     return <>
         <header>
-            <a href="/"><img src="../public/images/icone.png" alt="logo" /></a>
+            <a href="/"><img src="./images/icone.png" alt="logo" /></a>
             <button onClick={clickHamburger ? handleCloseHamburger : handleOpenHamburger} className={`hamburger ${clickHamburger ? "open" : ""}`} type="button" aria-label="Toggle navigation" aria-expanded="false">
                 <span></span>
                 <span></span>
