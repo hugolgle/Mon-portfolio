@@ -12,7 +12,7 @@ export default function AboutSection() {
             <div className="containerAbout">
                 <img src="./images/portrait.png" alt="" srcset="" />
                 <div className="containerText">
-                    <p>Je m'appelle Hugo, j'ai {age} ans et je suis étudiant en développement web. Passionné par les possibilités infinies qu'offre la programmation, j'aime explorer les technologies émergentes et créer des solutions innovantes. En dehors de mes études, je suis un fervent amateur de sport, trouvant équilibre et énergie dans l'activité physique. Mon engagement envers le développement web se marie harmonieusement avec ma passion pour le sport, car les deux nécessitent discipline, créativité et persévérance pour atteindre les objectifs fixés.</p>
+                    <p>Je m'appelle Hugo, j'ai {age} ans et je suis passionné par le développement web. Actuellement à la recherche d'une alternance dans ce domaine, je suis motivé et prêt à m'investir pleinement dans une entreprise qui saura me permettre de mettre en pratique mes compétences et d'en acquérir de nouvelles.</p>
                 </div>
             </div>
         </section>

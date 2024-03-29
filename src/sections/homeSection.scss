@@ -4,12 +4,13 @@ section.home {
     padding: 0;
     background-image: url(../../public/images/imgHome.jpg);
     background-size: cover;
+    background-position: center;
     height: 100vh;
 
     div.containerLeft {
         width: 50vw;
         height: 100vh;
-        background-color: rgba(0, 0, 0, 0.224);
+        background-color: rgba(0, 0, 0, 0.412);
         position: absolute;
         top: 0;
         @include display(flex, column, center, center);

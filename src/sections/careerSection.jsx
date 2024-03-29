@@ -27,7 +27,7 @@ export default function CareerSection() {
                     <div className="boxText">
                         <h3>Septembre 2023 - Mars 2024</h3>
                         <hr />
-                        <p>Parcours Integrateur Web - OpenClassrooms</p>
+                        <p>Parcours Integrateur Web - OpenClassrooms - En distanciel</p>
                     </div>
                 </div>
                 <div className="boxParcour">
@@ -43,7 +43,7 @@ export default function CareerSection() {
                     <div className="boxText">
                         <h3>Septembre 2020 - Juin 2022</h3>
                         <hr />
-                        <p>BTS SIO - Lycée Victor & Hélène BASCH - Rennes</p>
+                        <p>BTS SIO - Option SLAM (Solutions Logicielles et Applications Métier) - Lycée Victor & Hélène BASCH - RENNES</p>
                     </div>
                 </div>
 

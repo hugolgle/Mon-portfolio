@@ -33,13 +33,15 @@ export default function SkillsSection() {
                     <h3>Web</h3>
                     <p>HTML5, CSS3, JS, PHP, Wordpress, SQL, API REST</p>
                     <h3>Librairie, Framework</h3>
-                    <p>JS : <b>React</b></p>
-                    <p>CSS : <b>Bootstrap</b>, <b>SASS</b></p>
+                    <p>JS : <b>React, Node</b></p>
+                    <p>CSS : <b>Bootstrap, SASS</b></p>
                     <p>PHP : <b>CodeIgniter</b></p>
                 </BoxSkills>
                 <BoxSkills title="Outils">
                     <h3>Développement</h3>
                     <p>Visual Studio Code</p>
+                    <h3>Design</h3>
+                    <p>Figma, Photoshop</p>
                     <h3>Projet</h3>
                     <p>Gitlab, GitHub, Git, Gantt, Trello</p>
                     <h3>Gestion de patrimoine</h3>
