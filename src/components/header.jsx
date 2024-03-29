@@ -36,20 +36,20 @@ export default function Header() {
         {/* <Loader /> */}
         <header>
             <a href="/"><img src="./images/icone.png" alt="logo" /></a>
+            <div className={`nav ${clickHamburger ? "open" : ""}`}>
+                <a href="#home" onClick={handleCloseHamburger}>Accueil</a>
+                <a href="#about" onClick={handleCloseHamburger}>Présentation</a>
+                <a href="#parcours" onClick={handleCloseHamburger}>Parcours</a>
+                <a href="#project" onClick={handleCloseHamburger}>Réalisations</a>
+                <a href="#xpPro" onClick={handleCloseHamburger}>Expériences professionelles</a>
+                <a href="#skills" onClick={handleCloseHamburger}>Compétences</a>
+                <a href="#contact" onClick={handleCloseHamburger}>Contact</a>
+            </div>
             <button onClick={clickHamburger ? handleCloseHamburger : handleOpenHamburger} className={`hamburger ${clickHamburger ? "open" : ""}`} type="button" aria-label="Toggle navigation" aria-expanded="false">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
-            <div className={`nav ${clickHamburger ? "open" : ""}`}>
-                <a href="#home">Accueil</a>
-                <a href="#about">Présentation</a>
-                <a href="#parcours">Parcours</a>
-                <a href="#project">Réalisations</a>
-                <a href="#xpPro">Expériences professionelles</a>
-                <a href="#skills">Compétences</a>
-                <a href="#contact">Contact</a>
-            </div>
         </header>
         <div className='container my-4'><Outlet /></div >
     </>;
