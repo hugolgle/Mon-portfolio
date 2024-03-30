@@ -57,7 +57,7 @@ export default function XpSection() {
                                                         <h3>{mission.title}</h3>
                                                         <p><b>Objectif : </b>{mission.objectif}</p>
                                                         {mission.description && (<p><b>Descritpion :</b>{mission.description}</p>)}
-                                                        <a href="#" target="_blank" rel="noopener noreferrer">Ressources</a>
+                                                        <a href={mission.ressource} target="_blank" rel="noopener noreferrer">Ressources</a>
                                                         {mission.apercu && (
                                                             <div>
                                                                 <p><b>Aperçu :</b></p>

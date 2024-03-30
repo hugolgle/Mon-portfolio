@@ -6,6 +6,7 @@ header {
     position: fixed;
     z-index: 2;
     transition: .3s;
+    padding: 10px 0;
 
     button.hamburger {
         display: none;
@@ -14,20 +15,20 @@ header {
     img {
         transition: .3s;
         cursor: pointer;
+        height: 35px;
 
         &:hover {
-            transform: scale(0.95);
+            transform: scale(0.9);
         }
     }
 
     div.nav {
-        padding: 20px 0;
-        @include display(flex, row, normal, normal);
+        @include display(flex, row, normal, center);
 
         a {
             margin: 0 10px;
             color: black;
-            font-size: 1.5em;
+            font-size: 1.4em;
             font-weight: 600;
             transition: .3s;
 

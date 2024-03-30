@@ -37,7 +37,7 @@ div.containerParcours {
             width: 90%;
             max-width: 450px;
             height: 135px;
-            padding: 5px;
+            padding: 10px;
             background-color: $colorPrimary;
             border-radius: 15px;
             @include display(flex, column, normal, normal);
