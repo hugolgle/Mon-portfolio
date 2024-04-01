@@ -1,8 +1,17 @@
-@import '../main.scss';
-
 div.containerAbout {
-    @include display(flex, row, center, center);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
+    // opacity: 0;
+    // transform: scale(0.9);
+    // transition: opacity 0.5s ease, transform 0.5s ease;
+
+    // &.show {
+    //     opacity: 1;
+    //     transform: scale(1);
+    // }
 
     img {
         height: 400px;
@@ -25,7 +34,7 @@ div.containerAbout {
 
 @media screen and (max-width: 600px) {
     div.containerAbout {
-        @include display(flex, column, center, center);
+        flex-direction: column;
 
         img {
             height: 200px;
@@ -38,9 +47,8 @@ div.containerAbout {
     }
 }
 
-@media screen and (max-width: 768px) and (min-width: 601px) {
+@media screen and (min-width: 601px) and (max-width: 768px) {
     div.containerAbout {
-
         img {
             height: 300px;
         }
