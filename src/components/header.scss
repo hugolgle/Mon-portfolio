@@ -38,9 +38,9 @@ header {
                 color: rgb(0, 0, 0);
                 content: "";
                 width: 0%;
-                height: 0.1px;
+                height: 1px;
                 background: rgb(0, 0, 0);
-                transition: width 0.4s ease-in-out;
+                transition: width 0.3s ease-out;
             }
 
             &:hover {

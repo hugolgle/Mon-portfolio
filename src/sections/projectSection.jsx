@@ -1,18 +1,12 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState } from 'react';
 import './projectSection.scss';
-import { realisations } from '../../public/json.json';
+import { realisations } from '../../public/data.json';
 import Button from '../components/button';
 import Modal from '../components/modal';
-// import { useIntersectionObserver } from '../utils/function';
 
 export default function ProjectSection() {
     const [modalIndex, setModalIndex] = useState(null);
     const [btnFilter, setBtnFilter] = useState("");
-
-    // const aboutRefs = useRef([]);
-
-    // Utilisez useEffect pour initialiser les références une fois
-
 
     const handleOpenModal = (index) => {
         setModalIndex(index);
@@ -45,20 +39,6 @@ export default function ProjectSection() {
     const handleBtnFilter = (ecole) => {
         setBtnFilter(ecole);
     }
-
-    // useEffect(() => {
-    //     aboutRefs.current = Array(realisations.length)
-    //         .fill(null)
-    //         .map(() => useIntersectionObserver((entries, observer) => {
-    //             const ratio = 0.65;
-    //             entries.forEach(entry => {
-    //                 if (entry.intersectionRatio > ratio) {
-    //                     entry.target.classList.add("show");
-    //                     observer.unobserve(entry.target);
-    //                 }
-    //             });
-    //         }, { root: null, rootMargin: '0px', threshold: 0.65 }));
-    // }, [realisations.length]);
 
     return (
         <section id='project' className="section project">

@@ -1,25 +1,7 @@
 import React from 'react';
 import './careerSection.scss';
-// import { useIntersectionObserver } from '../utils/function';
 
 export default function CareerSection() {
-
-    // const observeIntersection = (entries, observer) => {
-    //     const ratio = 0.65;
-    //     entries.forEach(entry => {
-    //         if (entry.intersectionRatio > ratio) {
-    //             entry.target.classList.add("show");
-    //             observer.unobserve(entry.target);
-    //         }
-    //     });
-    // };
-
-    // const aboutRefs = {
-    //     boxParcour1: useIntersectionObserver(observeIntersection, { root: null, rootMargin: '0px', threshold: 0.65 }),
-    //     boxParcour2: useIntersectionObserver(observeIntersection, { root: null, rootMargin: '0px', threshold: 0.65 }),
-    //     boxParcour3: useIntersectionObserver(observeIntersection, { root: null, rootMargin: '0px', threshold: 0.65 }),
-    //     boxParcour4: useIntersectionObserver(observeIntersection, { root: null, rootMargin: '0px', threshold: 0.65 })
-    // };
 
     return (
         <section id='parcours' className="section parcours">

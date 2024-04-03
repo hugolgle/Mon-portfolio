@@ -41,7 +41,7 @@ export default function SkillsSection() {
                     <h3>Développement</h3>
                     <p>Visual Studio Code</p>
                     <h3>Design</h3>
-                    <p>Figma, Photoshop</p>
+                    <p>Figma</p>
                     <h3>Projet</h3>
                     <p>Gitlab, GitHub, Git, Gantt, Trello</p>
                     <h3>Gestion de patrimoine</h3>

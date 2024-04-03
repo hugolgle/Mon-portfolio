@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './xpSection.scss';
 
-import { xpPro } from '../../public/json.json';
+import { xpPro } from '../../public/data.json';
 import Button from '../components/button';
 import Modal from '../components/modal';
 
