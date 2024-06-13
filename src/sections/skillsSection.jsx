@@ -12,44 +12,29 @@ export default function SkillsSection() {
 
             <div className="containerSkills">
                 <BoxSkills title="Langages">
-                    <h3>HTML5/CSS3</h3>
-                    <ProgressBar width="95" />
-                    <h3>JS</h3>
-                    <ProgressBar width="80" />
-                    <h3>PHP</h3>
-                    <ProgressBar width="65" />
-                    <h3>SQL</h3>
-                    <ProgressBar width="65" />
-                    <h3>Python</h3>
-                    <ProgressBar width="60" />
-                    <h3>Java</h3>
-                    <ProgressBar width="25" />
-                    <h3>C#</h3>
-                    <ProgressBar width="30" />
+                    <img src="../../public/images/iconSkills/iconJS.png" alt="" srcset="" title='JavaScript' className='iconSkills' />
+                    <img src="../../public/images/iconSkills/iconTS.png" alt="" srcset="" title='TypeScript' className='iconSkills' />
+                    <img src="../../public/images/iconSkills/iconMySQL.png" alt="" srcset="" title='MySQL' className='iconSkills' />
+                    <img src="../../public/images/iconSkills/iconPHP.png" alt="" srcset="" title='PHP' className='iconSkills' />
+                    <img src="../../public/images/iconSkills/iconPython.png" alt="" srcset="" title='Python' className='iconSkills' />
                 </BoxSkills>
                 <BoxSkills title="Technologies">
-                    <h3>Objet</h3>
-                    <p>Python, C#, Java</p>
-                    <h3>Web</h3>
-                    <p>HTML5, CSS3, JS, PHP, Wordpress, SQL, API REST</p>
-                    <h3>Librairie, Framework</h3>
-                    <p>JS : <b>React, Node</b></p>
-                    <p>CSS : <b>Bootstrap, SASS</b></p>
-                    <p>PHP : <b>CodeIgniter</b></p>
+                    <img src="../../public/images/iconSkills/iconWordpress.png" alt="" srcset="" title='WordPess' className='iconSkills' />
+                    <img src="../../public/images/iconSkills/iconReact.png" alt="" srcset="" title='React' className='iconSkills' />
+                    <img src="../../public/images/iconSkills/iconNode.png" alt="" srcset="" title='NodeJS' className='iconSkills' />
+                    <img src="../../public/images/iconSkills/iconTailwind.png" alt="" srcset="" title='Tailwind' className='iconSkills' />
+                    <img src="../../public/images/iconSkills/iconSASS.png" alt="" srcset="" title='SASS' className='iconSkills' />
+                    <img src="../../public/images/iconSkills/iconBootstrap.png" alt="" srcset="" title='Bootstrap' className='iconSkills' />
                 </BoxSkills>
                 <BoxSkills title="Outils">
-                    <h3>Développement</h3>
-                    <p>Visual Studio Code</p>
-                    <h3>Design</h3>
-                    <p>Figma</p>
-                    <h3>Projet</h3>
-                    <p>Gitlab, GitHub, Git, Gantt, Trello</p>
-                    <h3>Gestion de patrimoine</h3>
-                    <p>GLPI</p>
+                    <img src="../../public/images/iconSkills/iconFigma.png" alt="" srcset="" title='Figma' className='iconSkills' />
+                    <img src="../../public/images/iconSkills/iconVSCode.png" alt="" srcset="" title='Visual Studio Code' className='iconSkills' />
+                    <img src="../../public/images/iconSkills/iconGit.png" alt="" srcset="" title='Git' className='iconSkills' />
+                    <img src="../../public/images/iconSkills/iconGitHub.png" alt="" srcset="" title='GitHub' className='iconSkills' />
                 </BoxSkills>
-                <BoxSkills title="Conception">
-                    <h3>OS</h3>
-                    <p>Windows, Linux</p>
+                <BoxSkills title="Conception" class='concept'>
+                    <img src="../../public/images/iconSkills/iconWindows.png" alt="" srcset="" title='Windows' className='iconSkills' />
+                    <img src="../../public/images/iconSkills/iconLinux.png" alt="" srcset="" title='Linux' className='iconSkills' />
                 </BoxSkills>
             </div>
             <a href="./images/CV.pdf" target="_blank" rel="noopener noreferrer"><Button title="Voir mon CV" /></a>
