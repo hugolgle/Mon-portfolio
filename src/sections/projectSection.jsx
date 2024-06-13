@@ -29,7 +29,7 @@ export default function ProjectSection() {
     }
 
     const realisationFilter = (real, ecole) => {
-        if (ecole != "") {
+        if (ecole !== "") {
             return real.filter((x) => x.ecole === ecole);
         } else {
             return real;
@@ -51,49 +51,12 @@ export default function ProjectSection() {
 
             <div className="containerProject">
                 {realisationFilter(realisations, btnFilter).map((realisation, index) => (
-                    <div className="containerRealisation" key={index}>
-                        {
-                            modalIndex === index &&
-                            <Modal show="show" btnClose={handleCloseModal} titre={realisation.title}>
-                                <div className="containModal">
-                                    <p><b>Mission:</b> {realisation.mission}</p>
-                                </div>
-                                <div className="containModal">
-                                    <p><b>Contexte:</b> {realisation.context}</p>
-                                </div>
-                                {realisation.ecole === "BTS SIO" ? (
-                                    <>
-                                        <div className="containModal">
-                                            <p><b>Compétences:</b> {realisation.skills}</p>
-                                        </div>
-                                        <div className="containModal">
-                                            <a href={realisation.ressource} target="_blank" rel="noopener noreferrer">Ressources</a> - <a href="./images/fichedecompetences.pdf" target="_blank" rel="noopener noreferrer">Fiche de compétences</a>
-                                        </div>
-                                    </>
-                                ) : null}
-                                {realisation.ecole === "OpenClassrooms" ? (
-                                    <>
-                                        <div className="containModal">
-                                            <p><b>Technologies:</b> {realisation.techno}</p>
-                                        </div>
-                                        <div className="containModal">
-                                            <b>Compétences:</b>
-                                            {realisation.skills.map(skill => <p>{skill.skill}</p>)}
-                                        </div>
-                                        <div className="containModal">
-                                            <a href={realisation.ressource} target="_blank" rel="noopener noreferrer">Ressources</a>
-                                        </div>
-                                    </>
-                                ) : null}
-                            </Modal>
-
-                        }
+                    <div className="containerRealisation" key={index} onClick={() => handleOpenModal(index)}>
                         <div className="img">
-                            <img src={realisation.image} alt={realisation.title} srcset="" />
+                            <img src={realisation.image} alt={realisation.title} />
                             <div className="containHover">
                                 <p>{realisation.date}</p>
                                 <p>{getFirstSentence(realisation.mission)}</p>
-                                <i onClick={() => handleOpenModal(index)} className="fa-solid fa-plus"></i>
                             </div>
                         </div>
                         <div className="details">
@@ -102,6 +65,41 @@ export default function ProjectSection() {
                     </div>
                 ))}
             </div>
-        </section >
+
+            {modalIndex !== null && (
+                <Modal show="show" btnClose={handleCloseModal} titre={realisations[modalIndex].title}>
+                    <div className="containModal">
+                        <p><b>Mission:</b> {realisations[modalIndex].mission}</p>
+                    </div>
+                    <div className="containModal">
+                        <p><b>Contexte:</b> {realisations[modalIndex].context}</p>
+                    </div>
+                    {realisations[modalIndex].ecole === "BTS SIO" ? (
+                        <>
+                            <div className="containModal">
+                                <p><b>Compétences:</b> {realisations[modalIndex].skills}</p>
+                            </div>
+                            <div className="containModal">
+                                <a href={realisations[modalIndex].ressource} target="_blank" rel="noopener noreferrer">Ressources</a> - <a href="./images/fichedecompetences.pdf" target="_blank" rel="noopener noreferrer">Fiche de compétences</a>
+                            </div>
+                        </>
+                    ) : null}
+                    {realisations[modalIndex].ecole === "OpenClassrooms" ? (
+                        <>
+                            <div className="containModal">
+                                <p><b>Technologies:</b> {realisations[modalIndex].techno}</p>
+                            </div>
+                            <div className="containModal">
+                                <b>Compétences:</b>
+                                {realisations[modalIndex].skills.map((skill, skillIndex) => <p key={skillIndex}>{skill.skill}</p>)}
+                            </div>
+                            <div className="containModal">
+                                <a href={realisations[modalIndex].ressource} target="_blank" rel="noopener noreferrer">Ressources</a>
+                            </div>
+                        </>
+                    ) : null}
+                </Modal>
+            )}
+        </section>
     );
 }

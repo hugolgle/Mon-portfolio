@@ -2,7 +2,6 @@ import React from 'react';
 import './skillsSection.scss';
 
 import BoxSkills from '../components/boxSkills';
-import ProgressBar from '../components/progressBar';
 import Button from '../components/button';
 
 export default function SkillsSection() {

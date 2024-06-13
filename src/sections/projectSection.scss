@@ -10,9 +10,10 @@ div.containerProject {
     div.containerRealisation {
         width: auto;
         height: 280px;
-        border-radius: 15px;
         overflow: hidden;
         background-color: #fff;
+        cursor: pointer;
+        transition: .3s;
 
         div.img {
             width: 100%;
@@ -60,6 +61,11 @@ div.containerProject {
                 margin: 8px 0;
             }
         }
+    }
+
+    div.containerRealisation:hover {
+        transform: scale(1.05);
+        box-shadow: -1px 64px 37px -61px rgba(0, 0, 0, 0.55);
     }
 
     div.containerRealisation:hover img {
