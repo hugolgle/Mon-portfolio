@@ -40,6 +40,8 @@ export default function ProjectSection() {
         setBtnFilter(ecole);
     }
 
+    const filteredRealisations = realisationFilter(realisations, btnFilter);
+
     return (
         <section id='project' className="section project">
             <h1>Réalisations</h1>
@@ -50,7 +52,7 @@ export default function ProjectSection() {
             </div>
 
             <div className="containerProject">
-                {realisationFilter(realisations, btnFilter).map((realisation, index) => (
+                {filteredRealisations.map((realisation, index) => (
                     <div className="containerRealisation" key={index} onClick={() => handleOpenModal(index)}>
                         <div className="img">
                             <img src={realisation.image} alt={realisation.title} />
@@ -67,34 +69,34 @@ export default function ProjectSection() {
             </div>
 
             {modalIndex !== null && (
-                <Modal show="show" btnClose={handleCloseModal} titre={realisations[modalIndex].title}>
+                <Modal show="show" btnClose={handleCloseModal} titre={filteredRealisations[modalIndex].title}>
                     <div className="containModal">
-                        <p><b>Mission:</b> {realisations[modalIndex].mission}</p>
+                        <p><b>Mission:</b> {filteredRealisations[modalIndex].mission}</p>
                     </div>
                     <div className="containModal">
-                        <p><b>Contexte:</b> {realisations[modalIndex].context}</p>
+                        <p><b>Contexte:</b> {filteredRealisations[modalIndex].context}</p>
                     </div>
-                    {realisations[modalIndex].ecole === "BTS SIO" ? (
+                    {filteredRealisations[modalIndex].ecole === "BTS SIO" ? (
                         <>
                             <div className="containModal">
-                                <p><b>Compétences:</b> {realisations[modalIndex].skills}</p>
+                                <p><b>Compétences:</b> {filteredRealisations[modalIndex].skills}</p>
                             </div>
                             <div className="containModal">
-                                <a href={realisations[modalIndex].ressource} target="_blank" rel="noopener noreferrer">Ressources</a> - <a href="./images/fichedecompetences.pdf" target="_blank" rel="noopener noreferrer">Fiche de compétences</a>
+                                <a href={filteredRealisations[modalIndex].ressource} target="_blank" rel="noopener noreferrer">Ressources</a> - <a href="./images/fichedecompetences.pdf" target="_blank" rel="noopener noreferrer">Fiche de compétences</a>
                             </div>
                         </>
                     ) : null}
-                    {realisations[modalIndex].ecole === "OpenClassrooms" ? (
+                    {filteredRealisations[modalIndex].ecole === "OpenClassrooms" ? (
                         <>
                             <div className="containModal">
-                                <p><b>Technologies:</b> {realisations[modalIndex].techno}</p>
+                                <p><b>Technologies:</b> {filteredRealisations[modalIndex].techno}</p>
                             </div>
                             <div className="containModal">
                                 <b>Compétences:</b>
-                                {realisations[modalIndex].skills.map((skill, skillIndex) => <p key={skillIndex}>{skill.skill}</p>)}
+                                {filteredRealisations[modalIndex].skills.map((skill, skillIndex) => <p key={skillIndex}>{skill.skill}</p>)}
                             </div>
                             <div className="containModal">
-                                <a href={realisations[modalIndex].ressource} target="_blank" rel="noopener noreferrer">Ressources</a>
+                                <a href={filteredRealisations[modalIndex].ressource} target="_blank" rel="noopener noreferrer">Ressources</a>
                             </div>
                         </>
                     ) : null}
