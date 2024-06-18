@@ -5,10 +5,10 @@ div.containerXpPro {
     gap: 20px;
 
     div.boxXpPro {
-        @include display(flex, column, center, center);
+        @include display(flex, column, space-between, center);
         width: 450px;
-        height: 300px;
-        padding: 10px;
+        min-height: 300px;
+        padding: 25px 10px;
         background-color: $colorPrimary;
         border-radius: 10px;
         margin: 10px 20px;
@@ -32,7 +32,7 @@ div.containerXpPro {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     div.containerXpPro {
         @include display(flex, column, center, center);
 

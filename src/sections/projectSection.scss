@@ -57,8 +57,9 @@ div.containerProject {
             @include display(flex, column, center, center);
 
             h3 {
-                font-size: 1.7em;
+                font-size: 1.5em;
                 margin: 8px 0;
+                font-weight: 600;
             }
         }
     }

@@ -54,7 +54,7 @@ export default function XpSection() {
                                                 <h2 className='textMission'>Missions</h2>
                                                 {xp.missions.map(({ mission }) => (
                                                     <div key={mission.id}>
-                                                        <h3>{mission.title}</h3>
+                                                        <h3 className='titleMission'>- {mission.title}</h3>
                                                         <p><b>Objectif : </b>{mission.objectif}</p>
                                                         {mission.description && (<p><b>Descritpion :</b>{mission.description}</p>)}
                                                         <a href={mission.ressource} target="_blank" rel="noopener noreferrer">Ressources</a>

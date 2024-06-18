@@ -83,7 +83,7 @@ div.overlay {
                     color: #000;
                     font-style: italic;
                     transition: .3s;
-                    font-weight: 600;
+                    font-weight: 500;
                 }
 
                 a:hover {
@@ -93,6 +93,11 @@ div.overlay {
                 h2.textMission {
                     margin: 15px 0;
                     font-size: 2em;
+                }
+
+                h3.titleMission {
+                    font-size: 1.4em;
+                    font-weight: 600;
                 }
 
                 h2,
