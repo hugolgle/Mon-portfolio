@@ -71,15 +71,30 @@ export default function ProjectSection() {
             {modalIndex !== null && (
                 <Modal show="show" btnClose={handleCloseModal} titre={filteredRealisations[modalIndex].title}>
                     <div className="containModal">
-                        <p><b>Mission:</b> {filteredRealisations[modalIndex].mission}</p>
+                        {filteredRealisations[modalIndex].mission ?
+                            (<p><b>Mission:</b> {filteredRealisations[modalIndex].mission}</p>
+                            ) : (
+                                ""
+                            )
+                        }
                     </div>
                     <div className="containModal">
-                        <p><b>Contexte:</b> {filteredRealisations[modalIndex].context}</p>
+                        {filteredRealisations[modalIndex].context ?
+                            (<p><b>Contexte :</b> {filteredRealisations[modalIndex].context}</p>
+                            ) : (
+                                ""
+                            )
+                        }
                     </div>
                     {filteredRealisations[modalIndex].ecole === "BTS SIO" ? (
                         <>
                             <div className="containModal">
-                                <p><b>Compétences:</b> {filteredRealisations[modalIndex].skills}</p>
+                                {filteredRealisations[modalIndex].skills ?
+                                    (<p><b>Compétence :</b> {filteredRealisations[modalIndex].skills}</p>
+                                    ) : (
+                                        ""
+                                    )
+                                }
                             </div>
                             <div className="containModal">
                                 <a href={filteredRealisations[modalIndex].ressource} target="_blank" rel="noopener noreferrer">Ressources</a> - <a href="./images/fichedecompetences.pdf" target="_blank" rel="noopener noreferrer">Fiche de compétences</a>
