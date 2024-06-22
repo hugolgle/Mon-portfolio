@@ -39,7 +39,7 @@ div.containerParcours {
             min-height: 145px;
             padding: 10px;
             background-color: $colorPrimary;
-            border-radius: 15px;
+            border-radius: 10px;
             @include display(flex, column, normal, normal);
             box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.75);
 
