@@ -100,7 +100,7 @@ header {
             top: 0;
             text-align: center;
             width: 97%;
-            padding: 15px;
+            padding: 10px 15px;
             transform: translateY(-120%);
             box-shadow: 0px 20px 17px -15px rgba(0, 0, 0, 0.75);
             transition: .5s ease-in;
@@ -130,6 +130,10 @@ header {
 
                 &:hover {
                     letter-spacing: 0px;
+                }
+
+                &::after {
+                    display: none;
                 }
             }
 
