@@ -10,7 +10,7 @@ export default function HomeSection() {
                 <img src="./images/pp.jpeg" alt="" srcset="" />
                 <h1>Étudiant de {age} ans</h1>
                 <hr />
-                <p>Développeur web</p>
+                <p>Développeur alternant <br />chez ATEMPO</p>
                 <div className="mouse">
                     <hr />
                 </div>

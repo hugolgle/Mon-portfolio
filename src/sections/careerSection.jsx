@@ -14,7 +14,7 @@ export default function CareerSection() {
                     <div className="boxText">
                         <h3>Septembre 2024 - Juin 2025</h3>
                         <hr />
-                        <p>Bachelor Développeur Web - Alternance - MyDigitalSchool - VANNES</p>
+                        <p>Bachelor Développeur Web - Alternance (Chez <a href="https://www.atempo.com/fr/" target="_blank" rel="noopener noreferrer">ATEMPO</a>) - MyDigitalSchool - VANNES</p>
                     </div>
                 </div>
                 <div className="boxParcour">

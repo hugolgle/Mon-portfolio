@@ -45,6 +45,7 @@ div.containerParcours {
 
             h3 {
                 font-size: 1.5em;
+                font-weight: 500;
             }
 
             hr {
@@ -58,6 +59,15 @@ div.containerParcours {
             p {
                 font-size: 1.5em;
                 margin: 5px 0;
+            }
+
+            a {
+                color: black;
+                font-style: italic;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
     }
