@@ -2,7 +2,7 @@
 
 section.home {
   padding: 0;
-  background-image: url(../../public/images/imgHome.jpg);
+  background-image: url(../../../public/images/imgHome.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -107,7 +107,7 @@ section.home {
 
 @media screen and (max-width: 768px) {
   section.home {
-    background-image: url(../../public/images/imgHomeResp.jpg);
+    background-image: url(../../../public/images/imgHomeResp.jpg);
 
     div.containerLeft {
       width: 100vw;

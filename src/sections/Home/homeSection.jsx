@@ -7,7 +7,7 @@ export default function HomeSection() {
   return (
     <section id="home" className="section home">
       <div className="containerLeft">
-        <img src="./images/pp.jpeg" alt="" srcset="" />
+        <img src="./images/pp.jpeg" alt="" />
         <h1>Étudiant de {age} ans</h1>
         <hr />
         <p>
