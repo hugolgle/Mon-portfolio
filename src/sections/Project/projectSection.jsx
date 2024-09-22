@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./projectSection.scss";
-import { realisations } from "../../../public/data.json";
+import { realisations } from "../../../public/data/realisations.json";
 import Button from "../../components/button";
 import Modal from "../../components/modal";
 
@@ -17,9 +17,7 @@ export default function ProjectSection() {
   };
 
   const getFirstSentence = (text) => {
-    if (!text) {
-      return "";
-    }
+    if (!text) return "";
     const sentences = text.split(/[.!?]\s/);
     let firstSentence = sentences[0];
     if (!/[.!?]$/.test(firstSentence)) {
@@ -28,9 +26,9 @@ export default function ProjectSection() {
     return firstSentence;
   };
 
-  const realisationFilter = (real, ecole) => {
-    if (ecole !== "") {
-      return real.filter((x) => x.ecole === ecole);
+  const realisationFilter = (real, college) => {
+    if (college !== "") {
+      return real.filter((x) => x.ecole === college);
     } else {
       return real;
     }
@@ -40,6 +38,10 @@ export default function ProjectSection() {
     setBtnFilter(ecole);
   };
 
+  // Get unique colleges for filtering
+  const uniqueColleges = [
+    ...new Set(realisations.map((project) => project.ecole)),
+  ];
   const filteredRealisations = realisationFilter(realisations, btnFilter);
 
   return (
@@ -52,18 +54,15 @@ export default function ProjectSection() {
           value="Tout"
           action={() => handleBtnFilter("")}
         />
-        <Button
-          title="BTS SIO"
-          className={`btnFilter ${btnFilter === "BTS SIO" ? "active" : ""}`}
-          value="BTS SIO"
-          action={() => handleBtnFilter("BTS SIO")}
-        />
-        <Button
-          title="OpenClassrooms"
-          className={`btnFilter ${btnFilter === "OpenClassrooms" ? "active" : ""}`}
-          value="OpenClassrooms"
-          action={() => handleBtnFilter("OpenClassrooms")}
-        />
+        {uniqueColleges.map((college) => (
+          <Button
+            key={college}
+            title={college}
+            className={`btnFilter ${btnFilter === college ? "active" : ""}`}
+            value={college}
+            action={() => handleBtnFilter(college)}
+          />
+        ))}
       </div>
 
       <div className="containerProject">
@@ -94,80 +93,50 @@ export default function ProjectSection() {
           titre={filteredRealisations[modalIndex].title}
         >
           <div className="containModal">
-            {filteredRealisations[modalIndex].mission ? (
+            {filteredRealisations[modalIndex].mission && (
               <p>
                 <b>Mission:</b> {filteredRealisations[modalIndex].mission}
               </p>
-            ) : (
-              ""
             )}
           </div>
           <div className="containModal">
-            {filteredRealisations[modalIndex].context ? (
+            {filteredRealisations[modalIndex].context && (
               <p>
                 <b>Contexte :</b> {filteredRealisations[modalIndex].context}
               </p>
-            ) : (
-              ""
             )}
           </div>
-          {filteredRealisations[modalIndex].ecole === "BTS SIO" ? (
-            <>
-              <div className="containModal">
-                {filteredRealisations[modalIndex].skills ? (
-                  <p>
-                    <b>Compétence :</b>{" "}
-                    {filteredRealisations[modalIndex].skills}
-                  </p>
-                ) : (
-                  ""
-                )}
-              </div>
-              <div className="containModal">
-                <a
-                  href={filteredRealisations[modalIndex].ressource}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Ressources
-                </a>{" "}
-                -{" "}
-                <a
-                  href="./images/fichedecompetences.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Fiche de compétences
-                </a>
-              </div>
-            </>
-          ) : null}
-          {filteredRealisations[modalIndex].ecole === "OpenClassrooms" ? (
-            <>
-              <div className="containModal">
-                <p>
-                  <b>Technologies:</b> {filteredRealisations[modalIndex].techno}
-                </p>
-              </div>
-              <div className="containModal">
+          <div className="containModal">
+            {filteredRealisations[modalIndex].techno && (
+              <p>
+                <b>Technologies:</b>{" "}
+                {filteredRealisations[modalIndex].techno.join(", ")}
+              </p>
+            )}
+          </div>
+          <div className="containModal">
+            {filteredRealisations[modalIndex].skills && (
+              <div>
                 <b>Compétences:</b>
                 {filteredRealisations[modalIndex].skills.map(
                   (skill, skillIndex) => (
-                    <p key={skillIndex}>{skill.skill}</p>
+                    <p key={skillIndex}>• {skill.skill}</p> // Render skill correctly
                   )
                 )}
               </div>
-              <div className="containModal">
-                <a
-                  href={filteredRealisations[modalIndex].ressource}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Ressources
-                </a>
-              </div>
-            </>
-          ) : null}
+            )}
+          </div>
+          {filteredRealisations[modalIndex].ressource && (
+            <div className="containModal">
+              <a
+                href={filteredRealisations[modalIndex].ressource}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ressources
+              </a>
+            </div>
+          )}
         </Modal>
       )}
     </section>

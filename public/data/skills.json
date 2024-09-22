@@ -1,0 +1,106 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "category": "Technologies",
+      "img": "./images/iconSkills/iconBootstrap.png",
+      "name": "Bootstrap"
+    },
+    {
+      "id": "2",
+      "category": "Outils",
+      "img": "./images/iconSkills/iconFigma.png",
+      "name": "Figma"
+    },
+    {
+      "id": "3",
+      "category": "Outils",
+      "img": "./images/iconSkills/iconGit.png",
+      "name": "Git"
+    },
+    {
+      "id": "4",
+      "category": "Outils",
+      "img": "./images/iconSkills/iconGitHub.png",
+      "name": "GitHub"
+    },
+    {
+      "id": "5",
+      "category": "Langages",
+      "img": "./images/iconSkills/iconJS.png",
+      "name": "JS"
+    },
+    {
+      "id": "6",
+      "category": "Conception",
+      "img": "./images/iconSkills/iconLinux.png",
+      "name": "Linux"
+    },
+    {
+      "id": "7",
+      "category": "Langages",
+      "img": "./images/iconSkills/iconMySQL.png",
+      "name": "MySQL"
+    },
+    {
+      "id": "8",
+      "category": "Technologies",
+      "img": "./images/iconSkills/iconNode.png",
+      "name": "Node"
+    },
+    {
+      "id": "9",
+      "category": "Langages",
+      "img": "./images/iconSkills/iconPHP.png",
+      "name": "PHP"
+    },
+    {
+      "id": "10",
+      "category": "Langages",
+      "img": "./images/iconSkills/iconPython.png",
+      "name": "Python"
+    },
+    {
+      "id": "11",
+      "category": "Technologies",
+      "img": "./images/iconSkills/iconReact.png",
+      "name": "React"
+    },
+    {
+      "id": "12",
+      "category": "Technologies",
+      "img": "./images/iconSkills/iconSASS.png",
+      "name": "SASS"
+    },
+    {
+      "id": "13",
+      "category": "Technologies",
+      "img": "./images/iconSkills/iconTailwind.png",
+      "name": "Tailwind"
+    },
+    {
+      "id": "14",
+      "category": "Langages",
+      "img": "./images/iconSkills/iconTS.png",
+      "name": "TS"
+    },
+    {
+      "id": "15",
+      "category": "Outils",
+      "img": "./images/iconSkills/iconVSCode.png",
+      "name": "VSCode"
+    },
+    {
+      "id": "16",
+      "category": "Conception",
+      "img": "./images/iconSkills/iconWindows.png",
+      "name": "Windows"
+    },
+    {
+      "id": "17",
+      "category": "Technologies",
+      "img": "./images/iconSkills/iconWordpress.png",
+      "name": "Wordpress"
+    }
+  ]
+}

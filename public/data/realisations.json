@@ -1,0 +1,278 @@
+{
+  "realisations": [
+    {
+      "id": "5",
+      "ecole": "BTS SIO",
+      "title": "Découverte de la gestion de projet",
+      "semestre": "Semestre 2",
+      "mission": "Découverte de la gestion de projet.",
+      "context": "Pour assurer les missions qui lui sont confiées, l’étudiant en ST SIO travaille dans un environnement de gestion de projet, en mode projet, notamment lors des AP. Il doit faire preuve d’initiative, communique en permanence avec les autres membres de l’équipe projet, des membres de l’organisation ou des partenaires, dans le cadre d’un travail collaboratif ; et rend compte régulièrement à son responsable hiérarchique ou fonctionnel tout au long de l’état d’avancement du projet.",
+      "skills": [
+        {
+          "id": "skill_1",
+          "skill": "B1.3 - Développer la présence en ligne de l’organisation"
+        },
+        {
+          "id": "skill_2",
+          "skill": "B1.4 - Travailler en mode projet"
+        },
+        {
+          "id": "skill_3",
+          "skill": "B3.1 - Protéger les données à caractère personnel"
+        }
+      ],
+      "ressource": "https://drive.google.com/drive/folders/1Rm7wrY2aIOW2Ix8Fc1LA0v6ZtPPH9JUP?usp=share_link",
+      "date": "Janvier 2021",
+      "image": "./images/imgProjetBTS/projet_5.png"
+    },
+    {
+      "id": "6",
+      "ecole": "BTS SIO",
+      "title": "Deploiement de serveur app web",
+      "semestre": "Semestre 2",
+      "mission": "Vous êtes mandaté par le RSI de VHB pour intégrer la gestion de la fiche de validation de stage dans l’application web HistoStage dans l’environnement de recette. Ce site sera publié sur le serveur de recette LAMPP sécurisé par transfert de fichier via Visual Studio Code. Les informations de la FV seront à intégrer ultérieurement dans l’application HistoStage en production.",
+      "context": "Lycée VHB – Section STS-SIO",
+      "skills": [
+        {
+          "id": "skill_1",
+          "skill": "B1.1 - Gérer le patrimoine informatique"
+        },
+        {
+          "id": "skill_2",
+          "skill": "B1.2 - Répondre aux incidents et aux demandes d’assistance et d’évolution"
+        },
+        {
+          "id": "skill_3",
+          "skill": "B1.4 - Travailler en mode projet"
+        },
+        {
+          "id": "skill_4",
+          "skill": "B1.5 - Mettre à disposition des utilisateurs un service informatique"
+        },
+        {
+          "id": "skill_5",
+          "skill": "B1.6 - Organiser son développement professionnel"
+        },
+        {
+          "id": "skill_6",
+          "skill": "B3.1 - Protéger les données à caractère personnel"
+        },
+        {
+          "id": "skill_7",
+          "skill": "B3.2 - Préserver l’identité numérique de l’organisation"
+        },
+        {
+          "id": "skill_8",
+          "skill": "B3.4 - Garantir la disponibilité, l’intégrité et la confidentialité des services informatiques et des données de l’organisation face aux cyberattaques"
+        },
+        {
+          "id": "skill_9",
+          "skill": "B3.5 - A – SLAM – Assurer la cybersécurité d’une infrastructure réseau, d’un système, d’un service"
+        }
+      ],
+      "ressource": "https://drive.google.com/drive/folders/1BcYd3QRgaNpr3V43dAIZ6O0pY5hZGRD_?usp=sharing",
+      "date": "Janvier 2021",
+      "image": "./images/imgProjetBTS/projet_6.jpg"
+    },
+    {
+      "id": "7",
+      "ecole": "BTS SIO",
+      "title": "Projet GitLab admin",
+      "semestre": "Semestre 3",
+      "mission": "La solution consiste à s’appuyer sur l’API-Rest proposée par gitlab pour développer une application web spécifique permettant de sélectionner rapidement les ressources et d’appliquer la même action sur ces ressources.",
+      "context": "Dans le contexte de la section STS-SIO du lycée VHB, certaines opérations sont à mener sur plusieurs projets ou plusieurs utilisateurs. Les opérations unitaires proposées par l’application web gitlab se révèlent donc très fastidieuses dans ce contexte.",
+      "skills": [
+        {
+          "id": "skill_1",
+          "skill": "B1.1 - Gérer le patrimoine informatique"
+        },
+        {
+          "id": "skill_2",
+          "skill": "B1.2 - Répondre aux incidents et aux demandes d’assistance et d’évolution"
+        },
+        {
+          "id": "skill_3",
+          "skill": "B1.4 - Travailler en mode projet"
+        },
+        {
+          "id": "skill_4",
+          "skill": "B1.5 - Mettre à disposition des utilisateurs un service informatique"
+        }
+      ],
+      "ressource": "https://drive.google.com/drive/folders/12lQbJbsXNo5weLtu38IJOSLrifeF90hW?usp=sharing",
+      "date": "Novembre 2021",
+      "image": "./images/imgProjetBTS/projet_7.png"
+    },
+    {
+      "id": "8",
+      "ecole": "BTS SIO",
+      "title": "GSB Visites - Medecins",
+      "semestre": "Semestre 3",
+      "mission": "Projet d’évolutions sur les services web visant à offrir aux visiteurs médicaux de GSB l’ensemble des informations dont ils ont besoin lors de leurs visites : coordonnées des médecins, les rapports de visite ...",
+      "context": "L’activité commerciale d’un laboratoire pharmaceutique est principalement réalisée par les visiteurs médicaux. En effet, un médicament remboursé par la sécurité sociale n’est jamais vendu directement au consommateur mais prescrit au patient par son médecin. Toute communication publicitaire sur les médicaments remboursés est d’ailleurs interdite par la loi. Il est donc important, pour l’industrie pharmaceutique, de promouvoir ses produits directement auprès des praticiens.",
+      "skills": [
+        {
+          "id": "skill_1",
+          "skill": "B1.1 - Gérer le patrimoine informatique"
+        },
+        {
+          "id": "skill_2",
+          "skill": "B1.4 - Travailler en mode projet"
+        }
+      ],
+      "ressource": "https://drive.google.com/drive/folders/1V9aR4B7CYcjae-MBXZar_EY3nEHEBrtP?usp=sharing",
+      "date": "Mars 2022",
+      "image": "./images/imgProjetBTS/projet_8.jpg"
+    },
+    {
+      "id": "9",
+      "ecole": "BTS SIO",
+      "title": "GSB Visites - Medecins sur android",
+      "semestre": "Semestre 4",
+      "mission": "Comme l’ensemble des tablettes utilisées par les visiteurs hébergera l’OS Android, il a été décidé de réaliser une application mobile native Android. Elle sera développée en langage Java avec accès distant aux données gérées par des services web de type REST. Les services web de type REST sont hébergés sur le poste de développement lors de la réalisation, puis sur le serveur de recette lors de la recette.",
+      "context": "Le laboratoire Galaxy Swiss Bourdin – GSB – est amené dans ses différentes activités à contacter et visiter les médecins. Les visiteurs médicaux du laboratoire se déplacent afin de présenter les nouveaux produits pharmaceutiques et récolter différentes remarques des médecins concernant ces produits.",
+      "skills": [
+        {
+          "id": "skill_1",
+          "skill": "B1.4 - Travailler en mode projet"
+        }
+      ],
+      "ressource": "https://drive.google.com/drive/folders/1XO959nFtzhzfac6uN4jKmdQTTJOUZbq5?usp=sharing",
+      "date": "Mai 2022",
+      "image": "./images/imgProjetBTS/projet_9.jpg"
+    },
+    {
+      "id": "10",
+      "ecole": "OpenClassrooms",
+      "title": "Booki",
+      "mission": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS.",
+      "context": "Vous débutez votre alternance en tant que développeur web au sein de la start-up Booki. L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, vous travaillez en étroite collaboration avec Sarah, la CTO, et Loïc, l’UI designer.",
+      "skills": [
+        {
+          "id": "skill_1",
+          "skill": "Implémenter une interface responsive avec HTML et CSS"
+        },
+        {
+          "id": "skill_2",
+          "skill": "Installer un environnement de développement front-end"
+        },
+        {
+          "id": "skill_3",
+          "skill": "Intégrer du contenu conformément à une maquette avec HTML et CSS"
+        }
+      ],
+      "ressource": "https://github.com/hugolgle/booki",
+      "techno": ["HTML", "CSS"],
+      "date": "Octobre 2023",
+      "image": "./images/imgProjetOC/projet_1.jpg"
+    },
+    {
+      "id": "11",
+      "ecole": "OpenClassrooms",
+      "title": "Ohmyfood",
+      "mission": "Améliorez l'interface d'un site mobile avec des animations CSS.",
+      "context": "Vous avez intégré Ohmyfood en tant que développeur junior. Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. ",
+      "skills": [
+        {
+          "id": "skill_1",
+          "skill": "Intégrer une maquette en mobile-first"
+        },
+        {
+          "id": "skill_2",
+          "skill": "Mettre en œuvre des animations CSS"
+        },
+        {
+          "id": "skill_3",
+          "skill": "Versionner son projet avec Git et Github"
+        }
+      ],
+      "ressource": "https://github.com/hugolgle/ohmyfood",
+      "techno": ["HTML", "CSS"],
+      "date": "Novembre 2023",
+      "image": "./images/imgProjetOC/projet_2.jpg"
+    },
+    {
+      "id": "12",
+      "ecole": "OpenClassrooms",
+      "title": "Sophie Buel",
+      "mission": "Créez une page web dynamique avec JavaScript.",
+      "context": "Vous travaillez comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé votre dernier projet avec un peu d'avance, vous êtes envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
+      "skills": [
+        {
+          "id": "skill_1",
+          "skill": "Gérer les événements utilisateurs avec JavaScript"
+        },
+        {
+          "id": "skill_2",
+          "skill": "Manipuler les éléments du DOM avec JavaScript"
+        },
+        {
+          "id": "skill_3",
+          "skill": "Récupérer les données utilisateurs dans le JavaScript via des formulaires"
+        }
+      ],
+      "ressource": "https://github.com/hugolgle/Sophie-bluel",
+      "techno": ["HTML", "CSS", "JavaScript"],
+      "date": "Décembre 2023",
+      "image": "./images/imgProjetOC/projet_3.jpg"
+    },
+    {
+      "id": "13",
+      "ecole": "OpenClassrooms",
+      "title": "Kasa",
+      "mission": "Créez une application web de location immobilière avec React.",
+      "context": "Vous êtes développeur front-end en freelance pour Kasa, une entreprise de location d’appartements entre particuliers.Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.L'occasion parfaite pour vous d'ajouter une belle référence à votre portfolio de freelance !",
+      "skills": [
+        {
+          "id": "skill_1",
+          "skill": "Configurer la navigation entre les pages de l'application avec React Router"
+        },
+        {
+          "id": "skill_2",
+          "skill": "Développer des éléments de l'interface d'un site web grâce à des composants React"
+        },
+        {
+          "id": "skill_3",
+          "skill": "Mettre en œuvre des animations CSS"
+        },
+        {
+          "id": "skill_4",
+          "skill": "Développer une interface web avec Sass"
+        },
+        {
+          "id": "skill_5",
+          "skill": "Initialiser une application avec Create React App"
+        }
+      ],
+      "ressource": "https://github.com/hugolgle/kasa",
+      "techno": ["React.js"],
+      "date": "Février 2024",
+      "image": "./images/imgProjetOC/projet_4.jpg"
+    },
+    {
+      "id": "14",
+      "ecole": "OpenClassrooms",
+      "title": "Argent Bank",
+      "mission": "Implémentez le front-end d'une application bancaire avec React.",
+      "context": "Vous êtes développeur front-end en freelance pour Kasa, une entreprise de location d’appartements entre particuliers.Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.L'occasion parfaite pour vous d'ajouter une belle référence à votre portfolio de freelance !",
+      "skills": [
+        {
+          "id": "skill_1",
+          "skill": "Afficher les données du back end sur l'interface via des appels API"
+        },
+        {
+          "id": "skill_2",
+          "skill": "Configurer des routes API pour la communication client / serveur"
+        },
+        {
+          "id": "skill_3",
+          "skill": "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front"
+        }
+      ],
+      "ressource": "https://github.com/hugolgle/ArgentBank-website",
+      "techno": ["React.js"],
+      "date": "Mars 2024",
+      "image": "./images/imgProjetOC/projet_5.jpg"
+    }
+  ]
+}

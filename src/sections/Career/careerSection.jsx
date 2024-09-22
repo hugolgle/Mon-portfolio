@@ -1,58 +1,25 @@
-import React from "react";
+import { careers } from "../../../public/data/career.json";
 import "./careerSection.scss";
 
 export default function CareerSection() {
+  const careersReverse = [...careers].reverse();
+
   return (
     <section id="parcours" className="section parcours">
       <h1>Parcours</h1>
 
       <div className="containerParcours">
         <div className="barre"></div>
-        <div className="boxParcour">
-          <div className="rond"></div>
-          <div className="boxText">
-            <h3>Septembre 2024 - Juin 2025</h3>
-            <hr />
-            <p>
-              Bachelor Développeur Web - Alternance (Chez{" "}
-              <a
-                href="https://www.atempo.com/fr/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                ATEMPO
-              </a>
-              ) - MyDigitalSchool - VANNES
-            </p>
+        {careersReverse.map((unParcours, index) => (
+          <div key={index} className="boxParcour">
+            <div className="rond"></div>
+            <div className="boxText">
+              <h3>{unParcours.date}</h3>
+              <hr />
+              <p>{unParcours.description}</p>
+            </div>
           </div>
-        </div>
-        <div className="boxParcour">
-          <div className="rond"></div>
-          <div className="boxText">
-            <h3>Septembre 2023 - Mars 2024</h3>
-            <hr />
-            <p>Parcours Integrateur Web - OpenClassrooms - En distanciel</p>
-          </div>
-        </div>
-        <div className="boxParcour">
-          <div className="rond"></div>
-          <div className="boxText">
-            <h3>2022/2023</h3>
-            <hr />
-            <p>Auto-formation</p>
-          </div>
-        </div>
-        <div className="boxParcour">
-          <div className="rond"></div>
-          <div className="boxText">
-            <h3>Septembre 2020 - Juin 2022</h3>
-            <hr />
-            <p>
-              BTS SIO - Option SLAM (Solutions Logicielles et Applications
-              Métier) - Lycée Victor & Hélène BASCH - RENNES
-            </p>
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   );

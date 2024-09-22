@@ -1,0 +1,24 @@
+{
+  "careers": [
+    {
+      "id": "1",
+      "date": "Septembre 2020 - Juin 2022",
+      "description": "BTS SIO - Option SLAM (Solutions Logicielles et Applications Métier) - Lycée Victor & Hélène BASCH - RENNES"
+    },
+    {
+      "id": "2",
+      "date": "2022/2023",
+      "description": "Auto-formation"
+    },
+    {
+      "id": "3",
+      "date": "Septembre 2023 - Mars 2024",
+      "description": "Parcours Integrateur Web - OpenClassrooms - En distanciel"
+    },
+    {
+      "id": "4",
+      "date": "Septembre 2024 - Juin 2025",
+      "description": "Bachelor Développeur Web - Alternance (Chez ATEMPO) - MyDigitalSchool - VANNES"
+    }
+  ]
+}

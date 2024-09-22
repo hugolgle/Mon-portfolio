@@ -1,5 +1,6 @@
 import "./aboutSection.scss";
 import { calculerAge } from "../../utils/function";
+import { text } from "../../../public/data/about.json";
 
 export default function AboutSection() {
   const age = calculerAge(2002, 7);
@@ -10,15 +11,7 @@ export default function AboutSection() {
       <div className="containerAbout">
         <img src="./images/portrait.png" />
         <div className="containerText">
-          <p>
-            Je m'appelle Hugo, j'ai {age} ans et je suis passionné par le
-            développement web. Actuellement étudiant à l'école MyDigitalSchool à
-            Vannes, je combine mes études avec une alternance chez Atempo. Cette
-            expérience professionnelle enrichissante me permet de mettre en
-            pratique mes connaissances et de travailler sur des projets
-            concrets, tout en continuant à approfondir mes compétences
-            techniques et créatives dans le domaine du développement web.
-          </p>
+          <p>&quot;{text.replace("{age}", age)}&quot;</p>
         </div>
       </div>
     </section>

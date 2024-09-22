@@ -2,7 +2,7 @@
 
 div.containerSkills {
   display: grid;
-  grid-template-columns: 25% 25%;
+  grid-template-columns: 30% 30%;
   gap: 20px;
   padding: 40px 0;
   justify-content: center;
@@ -15,7 +15,7 @@ div.containerSkills {
     gap: 20px;
 
     img.iconSkills {
-      width: 70px;
+      width: 50px;
       transition: 0.3s;
     }
 
