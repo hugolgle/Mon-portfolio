@@ -1,6 +1,5 @@
-import React from "react";
 import "./aboutSection.scss";
-import { calculerAge } from "../utils/function";
+import { calculerAge } from "../../utils/function";
 
 export default function AboutSection() {
   const age = calculerAge(2002, 7);

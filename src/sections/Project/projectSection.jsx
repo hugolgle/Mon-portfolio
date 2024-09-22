@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./projectSection.scss";
-import { realisations } from "../../public/data.json";
-import Button from "../components/button";
-import Modal from "../components/modal";
+import { realisations } from "../../../public/data.json";
+import Button from "../../components/button";
+import Modal from "../../components/modal";
 
 export default function ProjectSection() {
   const [modalIndex, setModalIndex] = useState(null);
@@ -154,7 +154,7 @@ export default function ProjectSection() {
                 {filteredRealisations[modalIndex].skills.map(
                   (skill, skillIndex) => (
                     <p key={skillIndex}>{skill.skill}</p>
-                  ),
+                  )
                 )}
               </div>
               <div className="containModal">

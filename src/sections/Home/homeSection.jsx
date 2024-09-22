@@ -1,6 +1,6 @@
 import "./homeSection.scss";
 
-import { calculerAge } from "../utils/function.js";
+import { calculerAge } from "../../utils/function.js";
 
 export default function HomeSection() {
   const age = calculerAge(2002, 7);

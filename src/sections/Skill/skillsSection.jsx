@@ -1,7 +1,7 @@
 import "./skillsSection.scss";
 
-import BoxSkills from "../components/boxSkills";
-import Button from "../components/button";
+import BoxSkills from "../../components/boxSkills";
+import Button from "../../components/button";
 
 export default function SkillsSection() {
   return (

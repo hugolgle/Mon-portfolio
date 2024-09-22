@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./xpSection.scss";
 
-import { xpPro } from "../../public/data.json";
-import Button from "../components/button";
-import Modal from "../components/modal";
+import { xpPro } from "../../../public/data.json";
+import Button from "../../components/button";
+import Modal from "../../components/modal";
 
 export default function XpSection() {
   const [modalIndex, setModalIndex] = useState(null);
@@ -96,7 +96,7 @@ export default function XpSection() {
                                     <img src={image} alt="Aperçu" />
                                     <p className="description">{description}</p>
                                   </div>
-                                ),
+                                )
                               )}
                             </div>
                           )}
