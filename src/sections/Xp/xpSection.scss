@@ -29,8 +29,9 @@ div.containerXpPro {
 
     p.box {
       font-size: 1.4em;
-      font-weight: 300;
+      font-weight: 400;
       color: $colorSecondary;
+      font-style: italic;
     }
 
     h2.box {
@@ -77,7 +78,7 @@ div.containerXpPro {
         a {
           position: relative;
           font-size: 1em;
-          font-weight: 600;
+          font-weight: 400;
           color: $colorSecondary;
           text-decoration: none;
           transition: color 0.3s ease;
