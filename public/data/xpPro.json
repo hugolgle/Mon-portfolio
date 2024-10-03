@@ -18,7 +18,7 @@
         }
       ],
       "date": "2021",
-      "image": "./images/imgStageBTS/saintave/imgstagesite.png",
+      "image": "./images/imgXpPro/imgLmsa.png",
       "techno": [
         {
           "name": "Wordpress",
@@ -56,7 +56,7 @@
         }
       ],
       "date": "2022",
-      "image": "./images/imgStageBTS/lmdc/img1.png",
+      "image": "./images/imgXpPro/imgLmdc.png",
       "techno": [
         {
           "name": "PHP",
@@ -76,10 +76,11 @@
       "id": "3",
       "type": "Alternance",
       "domaine": "Développement d'application",
-      "title": "Lorem",
-      "mission": "Lorem ipsum dolor sit, amet consectetur",
+      "title": "Atempo",
+      "mission": "Maintenir et améliorer un produit MSP",
       "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam autem iste nam ea cupiditate aliquam, totam enim placeat laudantium numquam at tenetur cum incidunt, neque facilis blanditiis? Blanditiis officia hic dolorum cumque iste porro enim harum provident qui, nesciunt expedita explicabo quos.",
       "date": "En cours",
+      "image": "./images/imgXpPro/imgAtempo.png",
       "techno": [
         {
           "name": "Node",
