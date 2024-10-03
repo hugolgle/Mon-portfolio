@@ -7,7 +7,7 @@ export default function AboutSection() {
 
   return (
     <section id="about" className="section about">
-      <h1>Présentation</h1>
+      <h1>À propos de moi</h1>
       <div className="containerAbout">
         <img src="./images/portrait.png" />
         <div className="containerText">

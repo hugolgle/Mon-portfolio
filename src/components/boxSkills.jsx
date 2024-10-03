@@ -1,11 +1,10 @@
-import React from "react";
 import "./boxSkills.scss";
 
-export default function BoxSkills(props) {
+export default function BoxSkills({ title, children }) {
   return (
     <div className="boxSkills">
-      <h2>{props.title}</h2>
-      <div className={`iconSkills ${props.class}`}>{props.children}</div>
+      <h2>{title}</h2>
+      <div className="iconSkills">{children}</div>
     </div>
   );
 }

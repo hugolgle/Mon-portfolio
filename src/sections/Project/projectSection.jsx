@@ -1,8 +1,9 @@
 import { useState } from "react";
 import "./projectSection.scss";
-import { realisations } from "../../../public/data/realisations.json";
+import { realisations } from "../../../public/data/projects.json";
 import Button from "../../components/button";
 import Modal from "../../components/modal";
+import { parseDate } from "../../utils/function";
 
 export default function ProjectSection() {
   const [modalIndex, setModalIndex] = useState(null);
@@ -16,37 +17,22 @@ export default function ProjectSection() {
     setModalIndex(null);
   };
 
-  const getFirstSentence = (text) => {
-    if (!text) return "";
-    const sentences = text.split(/[.!?]\s/);
-    let firstSentence = sentences[0];
-    if (!/[.!?]$/.test(firstSentence)) {
-      firstSentence += ".";
-    }
-    return firstSentence;
-  };
-
   const realisationFilter = (real, college) => {
-    if (college !== "") {
-      return real.filter((x) => x.ecole === college);
-    } else {
-      return real;
-    }
+    return college !== "" ? real.filter((x) => x.formation === college) : real;
   };
 
-  const handleBtnFilter = (ecole) => {
-    setBtnFilter(ecole);
+  const handleBtnFilter = (formation) => {
+    setBtnFilter(formation);
   };
 
-  // Get unique colleges for filtering
   const uniqueColleges = [
-    ...new Set(realisations.map((project) => project.ecole)),
+    ...new Set(realisations.map((project) => project.formation)),
   ];
   const filteredRealisations = realisationFilter(realisations, btnFilter);
 
   return (
     <section id="project" className="section project">
-      <h1>Réalisations</h1>
+      <h1>Mes projets</h1>
       <div className="btnFilter">
         <Button
           title="Tout"
@@ -66,24 +52,29 @@ export default function ProjectSection() {
       </div>
 
       <div className="containerProject">
-        {filteredRealisations.map((realisation, index) => (
-          <div
-            className="containerRealisation"
-            key={index}
-            onClick={() => handleOpenModal(index)}
-          >
-            <div className="img">
-              <img src={realisation.image} alt={realisation.title} />
-              <div className="containHover">
-                <p>{realisation.date}</p>
-                <p>{getFirstSentence(realisation.mission)}</p>
+        {filteredRealisations
+          .sort((a, b) => parseDate(b.date) - parseDate(a.date))
+          .map((realisation, index) => {
+            console.log(new Date(realisation.date));
+            return (
+              <div
+                className="cardRealisation animate__animated animate__fadeIn"
+                key={`${btnFilter}-${index}`}
+                onClick={() => handleOpenModal(index)}
+              >
+                <div className="img">
+                  <img src={realisation.image} alt={realisation.title} />
+                  <div className="containHover">
+                    <p>{realisation.date}</p>
+                    <p>{realisation.objectif}</p>
+                  </div>
+                </div>
+                <div className="details">
+                  <h3>{realisation.title}</h3>
+                </div>
               </div>
-            </div>
-            <div className="details">
-              <h3>{realisation.title}</h3>
-            </div>
-          </div>
-        ))}
+            );
+          })}
       </div>
 
       {modalIndex !== null && (
@@ -91,52 +82,57 @@ export default function ProjectSection() {
           show="show"
           btnClose={handleCloseModal}
           titre={filteredRealisations[modalIndex].title}
+          image={filteredRealisations[modalIndex].image}
         >
           <div className="containModal">
-            {filteredRealisations[modalIndex].mission && (
+            {filteredRealisations[modalIndex].objectif && (
               <p>
-                <b>Mission:</b> {filteredRealisations[modalIndex].mission}
+                <b>Objectif :</b> {filteredRealisations[modalIndex].objectif}
               </p>
             )}
-          </div>
-          <div className="containModal">
-            {filteredRealisations[modalIndex].context && (
+
+            {filteredRealisations[modalIndex].description && (
               <p>
-                <b>Contexte :</b> {filteredRealisations[modalIndex].context}
+                <b>Description :</b>{" "}
+                {filteredRealisations[modalIndex].description}
               </p>
             )}
-          </div>
-          <div className="containModal">
-            {filteredRealisations[modalIndex].techno && (
+
+            {filteredRealisations[modalIndex].technology && (
               <p>
-                <b>Technologies:</b>{" "}
-                {filteredRealisations[modalIndex].techno.join(", ")}
+                <b>Technologies :</b>{" "}
+                {filteredRealisations[modalIndex].technology.join(" - ")}
               </p>
             )}
-          </div>
-          <div className="containModal">
+
             {filteredRealisations[modalIndex].skills && (
-              <div>
-                <b>Compétences:</b>
+              <div className="skills">
+                <b>Compétences :</b>
                 {filteredRealisations[modalIndex].skills.map(
                   (skill, skillIndex) => (
-                    <p key={skillIndex}>• {skill.skill}</p> // Render skill correctly
+                    <p key={skillIndex}>• {skill.skill}</p>
                   )
                 )}
               </div>
             )}
+
+            {filteredRealisations[modalIndex].ressource && (
+              <div>
+                {filteredRealisations[modalIndex].ressource
+                  .map((res, index) => (
+                    <a
+                      key={index}
+                      href={res.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {res.label}
+                    </a>
+                  ))
+                  .reduce((prev, curr) => [prev, " - ", curr])}
+              </div>
+            )}
           </div>
-          {filteredRealisations[modalIndex].ressource && (
-            <div className="containModal">
-              <a
-                href={filteredRealisations[modalIndex].ressource}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Ressources
-              </a>
-            </div>
-          )}
         </Modal>
       )}
     </section>

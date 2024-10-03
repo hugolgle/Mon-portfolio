@@ -11,13 +11,14 @@ section.home {
   div.containerLeft {
     width: 50vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.412);
+    background-color: rgba(0, 0, 0, 0.45);
     position: absolute;
     top: 0;
     @include display(flex, column, center, center);
     color: rgb(206, 206, 206);
     margin-left: 150%;
     animation: bbb 2s forwards;
+    border-radius: 0 1em 1em 0;
 
     img {
       width: 100px;
@@ -33,7 +34,7 @@ section.home {
     h1 {
       font-size: 4.5em;
 
-      @media screen and (max-height: 480px) {
+      @media screen and (max-height: 768px) {
         font-size: 3.5em;
       }
     }
@@ -41,9 +42,10 @@ section.home {
     hr {
       width: 100px;
       border: none;
-      height: 6px;
+      height: 3px;
       border-radius: 50px;
       background-color: rgb(206, 206, 206);
+      margin-bottom: 1rem;
 
       @media screen and (max-height: 480px) {
         height: 4px;
@@ -58,6 +60,7 @@ section.home {
       border-radius: 50px;
       animation: 4s translate infinite ease-in-out;
       transform: translateY(12.5px);
+      margin-top: 1rem;
       width: 25px;
       height: 45px;
       border: solid 2px #ffffff;
@@ -102,6 +105,10 @@ section.home {
     100% {
       margin-left: 0%;
     }
+
+    0% {
+      margin-left: 150%;
+    }
   }
 }
 
@@ -112,6 +119,7 @@ section.home {
     div.containerLeft {
       width: 100vw;
       margin-left: -50%;
+      border-radius: 0;
     }
   }
 }

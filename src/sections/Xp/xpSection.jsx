@@ -15,38 +15,45 @@ export default function XpSection() {
 
       <div className="containerXpPro">
         {displayedXp.map((xp, index) => (
-          <div className="boxXpPro" key={index}>
-            {xp.image && (
-              <div className="image">
-                <img src={xp.image} alt={`${xp.title} image`} />
+          <div
+            className="boxXpPro animate__animated animate__fadeIn"
+            key={index}
+          >
+            <div>
+              {xp.image && (
+                <div className="image">
+                  <img src={xp.image} alt={`${xp.title} image`} />
+                </div>
+              )}
+              <p className="box">
+                {xp.type} - {xp.domaine} - {xp.date}
+              </p>
+              <h2 className="box">{xp.title}</h2>
+              <h3 className="box">Objectif : {xp.objectif}</h3>
+              <div className="description">
+                <p>{xp.description}</p>
               </div>
-            )}
-            <p className="box">
-              {xp.type} - {xp.domaine} - {xp.date}
-            </p>
-            <h2 className="box">{xp.title}</h2>
-            <h3 className="box">Mission : {xp.mission}</h3>
-            <div className="description">
-              <p>{xp.description}</p>
             </div>
-            <div className="iconSkills">
-              {xp.techno &&
-                xp.techno.map(({ name, img }, key) => (
-                  <div key={key} className="link">
-                    <img src={img} alt={name} className="icon" />{" "}
-                  </div>
-                ))}
-            </div>
+            <div>
+              <div className="iconSkills">
+                {xp.techno &&
+                  xp.techno.map(({ name, img }, key) => (
+                    <div key={key} className="link">
+                      <img src={img} alt={name} className="icon" />{" "}
+                    </div>
+                  ))}
+              </div>
 
-            <div className="liens">
-              {xp.liens &&
-                xp.liens.map(({ text, lien }, key) => (
-                  <div key={key} className="link">
-                    <a href={lien} target="_blank" rel="noopener noreferrer">
-                      {text}
-                    </a>
-                  </div>
-                ))}
+              <div className="liens">
+                {xp.liens &&
+                  xp.liens.map(({ text, lien }, key) => (
+                    <div key={key} className="link">
+                      <a href={lien} target="_blank" rel="noopener noreferrer">
+                        {text}
+                      </a>
+                    </div>
+                  ))}
+              </div>
             </div>
           </div>
         ))}

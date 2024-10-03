@@ -1,30 +1,36 @@
 @import "../../main.scss";
 
 div.containerProject {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 16px;
+  padding: 0 5px;
 
-  div.containerRealisation {
-    width: auto;
+  div.cardRealisation {
+    width: 425px;
     height: 280px;
     overflow: hidden;
     background-color: #fff;
     cursor: pointer;
     transition: 0.3s;
-    border-radius: 10px;
+    border-radius: 1em;
+    @include shadow();
 
     div.img {
       width: 100%;
-      height: 75%;
+      height: 80%;
       overflow: hidden;
       position: relative;
+      border-radius: 0;
 
       img {
         object-fit: cover;
+        object-position: top;
         transition: 0.5s;
+        width: 100%;
+        height: 100%;
       }
 
       div.containHover {
@@ -33,7 +39,7 @@ div.containerProject {
         height: 100%;
         width: 100%;
         padding: 10px;
-        @include display(flex, column, center, center);
+        @include display(flex, column, space-evenly, center);
         visibility: hidden;
         opacity: 0;
         transition: 0.5s;
@@ -53,42 +59,56 @@ div.containerProject {
     }
 
     div.details {
-      width: 100%;
-      height: 25%;
       @include display(flex, column, center, center);
+      width: 100%;
+      height: 20%;
 
       h3 {
         font-size: 1.5em;
-        margin: 8px 0;
         font-weight: 600;
       }
     }
   }
 
-  div.containerRealisation:hover {
-    transform: scale(1.05);
-    box-shadow: -1px 64px 37px -61px rgba(0, 0, 0, 0.55);
+  div.cardRealisation:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.01);
   }
 
-  div.containerRealisation:hover img {
-    filter: brightness(0.1);
+  div.cardRealisation:hover img {
+    filter: brightness(0.3);
   }
 
-  div.containerRealisation:hover div.img > div.containHover {
+  div.cardRealisation:hover div.img > div.containHover {
     visibility: visible;
     opacity: 1;
   }
 }
 
+@keyframes modalFadeOut {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+
+div.btnFilter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 15px 0;
+}
+
 @media screen and (max-width: 1024px) {
   div.containerProject {
-    grid-template-columns: auto auto;
-    gap: 20px;
-
-    div.containerRealisation {
+    div.cardRealisation {
       div.img {
-        height: 75%;
-
         div.containHover {
           visibility: visible;
           opacity: 1;
@@ -97,25 +117,6 @@ div.containerProject {
         img {
           object-fit: cover;
           filter: brightness(0.35);
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 768px) {
-  div.containerProject {
-    grid-template-columns: auto;
-    gap: 10px;
-
-    div.containerRealisation {
-      height: 95%;
-
-      div.img {
-        height: 75%;
-
-        img {
-          object-fit: cover;
         }
       }
     }
