@@ -1,4 +1,3 @@
-import React from "react";
 import "./modal.scss";
 
 export default function Modal(props) {
@@ -12,8 +11,12 @@ export default function Modal(props) {
         onClick={(e) => e.stopPropagation()}
       >
         <h2>{props.titre}</h2>
+
         <i onClick={props.btnClose} className="fa-solid fa-xmark"></i>
-        <div className="contain">{props.children}</div>
+        <div className="contain">
+          <img className="contain" src={props.image} alt={props.titre} />
+          {props.children}
+        </div>
       </div>
     </div>
   );

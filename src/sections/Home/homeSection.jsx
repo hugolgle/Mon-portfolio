@@ -11,8 +11,7 @@ export default function HomeSection() {
         <h1>Étudiant de {age} ans</h1>
         <hr />
         <p>
-          Développeur alternant <br />
-          chez ATEMPO
+          Développeur web junior
         </p>
         <div className="mouse">
           <hr />

@@ -33,29 +33,23 @@ export default function Header() {
     <>
       <header>
         <a href="/" className="logo">
-          H U G O
+          Hugo
         </a>
         <div className={`nav ${clickHamburger ? "open" : ""}`}>
           <a href="/" className="logoResp">
-            H U G O
+            Hugo
           </a>
           <a href="#home" onClick={handleCloseHamburger}>
             Accueil
           </a>
           <a href="#about" onClick={handleCloseHamburger}>
-            Présentation
-          </a>
-          <a href="#parcours" onClick={handleCloseHamburger}>
-            Parcours
+            À propos de moi
           </a>
           <a href="#project" onClick={handleCloseHamburger}>
-            Réalisations
+            Mes projets
           </a>
           <a href="#xpPro" onClick={handleCloseHamburger}>
             Expériences professionelles
-          </a>
-          <a href="#skills" onClick={handleCloseHamburger}>
-            Compétences
           </a>
           <a href="#contact" onClick={handleCloseHamburger}>
             Contact

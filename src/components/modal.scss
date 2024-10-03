@@ -23,13 +23,13 @@ div.overlay {
   }
 
   div.modal {
-    background-color: $colorPrimary;
+    background-color: #fff;
     width: 620px;
     height: 550px;
     border-radius: 15px;
-    position: relative;
     transition: 0.3s;
     padding: 10px 20px;
+    @include display(flex, column, space-between, normal);
 
     @media screen and (max-width: 480px) {
       width: 95%;
@@ -42,12 +42,29 @@ div.overlay {
 
     h2 {
       font-size: 2.5em;
+      height: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     div.contain {
       overflow-y: auto;
-      height: 85%;
+      height: 90%;
       padding-right: 5px;
+
+      img.contain {
+        border-radius: 5px;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+        height: 200px;
+        border: 1px solid #8e7d7d80;
+
+        @media screen and (max-width: 480px) {
+          width: 95%;
+        }
+      }
 
       @media screen and (max-width: 480px) {
         height: 80%;
@@ -76,7 +93,10 @@ div.overlay {
       }
 
       div.containModal {
+        @include display(flex, column, start, start);
+        gap: 0.8rem;
         text-align: left;
+        margin-top: 1rem;
         font-size: 1.4em;
 
         a {
@@ -84,7 +104,8 @@ div.overlay {
           color: #000;
           font-style: italic;
           transition: 0.3s;
-          font-weight: 500;
+          font-weight: 400;
+          font-size: 0.8em;
         }
 
         a:hover {
@@ -137,6 +158,13 @@ div.overlay {
       transition: opacity 0.4s ease-out;
     }
 
+    &.noShow {
+      opacity: 1;
+      visibility: visible;
+      animation: modalFadeOut 0.3s forwards;
+      transition: opacity 0.4s ease-out;
+    }
+
     i {
       background: none;
       position: absolute;
@@ -146,10 +174,6 @@ div.overlay {
       cursor: pointer;
       transition: 0.3s;
       font-size: 2em;
-
-      &:hover {
-        transform: scale(1.2) rotate(90deg);
-      }
     }
   }
 }

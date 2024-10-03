@@ -5,7 +5,7 @@
       "type": "Stage",
       "domaine": "Développement web",
       "title": "La Mairie de Saint-Avé",
-      "mission": "Migrer un site web sous WordPress.",
+      "objectif": "Migrer un site web sous WordPress.",
       "description": "Pendant mon stage à la Mairie de Saint-Avé, j'ai migré le site évolugame vers WordPress. J'ai modernisé le site, ajouté le protocole HTTPS et préservé son design ainsi que ses fonctionnalités essentielles. Pour cela, j'ai utilisé WordPress, phpMyAdmin, mySQL, Visual Studio et Filezilla.",
       "liens": [
         {
@@ -18,7 +18,7 @@
         }
       ],
       "date": "2021",
-      "image": "./images/imgStageBTS/saintave/imgstagesite.png",
+      "image": "./images/imgXpPro/1.png",
       "techno": [
         {
           "name": "Wordpress",
@@ -39,7 +39,7 @@
       "type": "Stage",
       "domaine": "Développement d'application",
       "title": "La Maison des Chaudoudoux",
-      "mission": "Améliorer et corriger l'application interne de l'association.",
+      "objectif": "Améliorer et corriger l'application interne de l'association.",
       "description": "Lors de ce stage à l'association La Maison des Chaudoudoux, j'ai amélioré l'application web interne appliChaudoudoux, qui gère les intervenants, les familles, les candidats et les plannings. J'ai collaboré avec un autre stagiaire pour optimiser ces fonctionnalités et faciliter l'utilisation de la plateforme.",
       "liens": [
         {
@@ -56,7 +56,7 @@
         }
       ],
       "date": "2022",
-      "image": "./images/imgStageBTS/lmdc/img1.png",
+      "image": "./images/imgXpPro/2.png",
       "techno": [
         {
           "name": "PHP",
@@ -76,25 +76,19 @@
       "id": "3",
       "type": "Alternance",
       "domaine": "Développement d'application",
-      "title": "Lorem",
-      "mission": "Lorem ipsum dolor sit, amet consectetur",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam autem iste nam ea cupiditate aliquam, totam enim placeat laudantium numquam at tenetur cum incidunt, neque facilis blanditiis? Blanditiis officia hic dolorum cumque iste porro enim harum provident qui, nesciunt expedita explicabo quos.",
-      "date": "En cours",
+      "title": "Atempo",
+      "objectif": "Maintenir et améliorer un produit MSP",
+      "description": "Dans le cadre de mon bachelor en développement web, j'effectue mon alternance chez Atempo où je maintiens et améliore un produit MSP en corrigeant les bugs, en optimisant les performances et en ajoutant des fonctionnalités. Mon travail se concentre sur le front-end avec React.",
+      "date": "2024/25",
+      "image": "./images/imgXpPro/3.png",
       "techno": [
         {
-          "name": "Node",
-          "img": "./images/iconSkills/iconNode.png"
-        },
-        {
-          "name": "Tailwind",
           "img": "./images/iconSkills/iconTailwind.png"
         },
         {
-          "name": "React.js",
           "img": "./images/iconSkills/iconReact.png"
         },
         {
-          "name": "TypeScript",
           "img": "./images/iconSkills/iconTS.png"
         }
       ]

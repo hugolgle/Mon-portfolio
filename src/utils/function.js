@@ -1,3 +1,18 @@
+const mois = {
+  Janvier: 0,
+  Février: 1,
+  Mars: 2,
+  Avril: 3,
+  Mai: 4,
+  Juin: 5,
+  Juillet: 6,
+  Août: 7,
+  Septembre: 8,
+  Octobre: 9,
+  Novembre: 10,
+  Décembre: 11,
+};
+
 export function calculerAge(annee, mois) {
   const dateActuelle = new Date();
   const anneeActuelle = dateActuelle.getFullYear();
@@ -8,3 +23,8 @@ export function calculerAge(annee, mois) {
   }
   return age;
 }
+
+export const parseDate = (dateStr) => {
+  const [moisNom, annee] = dateStr.split(" ");
+  return new Date(annee, mois[moisNom]);
+};

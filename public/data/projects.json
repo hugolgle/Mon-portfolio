@@ -1,0 +1,151 @@
+{
+  "realisations": [
+    {
+      "id": "2",
+      "formation": "OpenClassrooms",
+      "title": "Ohmyfood",
+      "objectif": "Améliorez l'interface d'un site mobile avec des animations CSS",
+      "description": "Vous avez intégré Ohmyfood en tant que développeur junior. Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. ",
+      "skills": [
+        {
+          "id": "skill_1",
+          "skill": "Intégrer une maquette en mobile-first"
+        },
+        {
+          "id": "skill_2",
+          "skill": "Mettre en œuvre des animations CSS"
+        },
+        {
+          "id": "skill_3",
+          "skill": "Versionner son projet avec Git et Github"
+        }
+      ],
+      "ressource": [
+        { "label": "GitHub", "url": "https://github.com/hugolgle/ohmyfood" },
+        {
+          "label": "Le site",
+          "url": "https://hugolgle.github.io/ohmyfood/index.html"
+        }
+      ],
+      "technology": ["HTML", "CSS"],
+      "date": "Novembre 2023",
+      "image": "./images/imgRealisation/3.png"
+    },
+    {
+      "id": "3",
+      "formation": "OpenClassrooms",
+      "title": "Sophie Buel",
+      "objectif": "Créez une page web dynamique avec JavaScript",
+      "description": "Vous travaillez comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé votre dernier projet avec un peu d'avance, vous êtes envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
+      "skills": [
+        {
+          "id": "skill_1",
+          "skill": "Gérer les événements utilisateurs avec JavaScript"
+        },
+        {
+          "id": "skill_2",
+          "skill": "Manipuler les éléments du DOM avec JavaScript"
+        },
+        {
+          "id": "skill_3",
+          "skill": "Récupérer les données utilisateurs dans le JavaScript via des formulaires"
+        }
+      ],
+      "ressource": [
+        { "label": "GitHub", "url": "https://github.com/hugolgle/Sophie-bluel" }
+      ],
+      "technology": ["HTML", "CSS", "JAVASCRIPT"],
+      "date": "Décembre 2023",
+      "image": "./images/imgRealisation/4.png"
+    },
+    {
+      "id": "4",
+      "formation": "OpenClassrooms",
+      "title": "Kasa",
+      "objectif": "Créez une application web de location immobilière avec React",
+      "description": "Vous êtes développeur front-end en freelance pour Kasa, une entreprise de location d’appartements entre particuliers.Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.L'occasion parfaite pour vous d'ajouter une belle référence à votre portfolio de freelance !",
+      "skills": [
+        {
+          "skill": "Configurer la navigation entre les pages de l'application avec React Router"
+        },
+        {
+          "skill": "Développer des éléments de l'interface d'un site web grâce à des composants React"
+        },
+        {
+          "skill": "Mettre en œuvre des animations CSS"
+        },
+        {
+          "skill": "Développer une interface web avec Sass"
+        },
+        {
+          "skill": "Initialiser une application avec Create React App"
+        }
+      ],
+      "ressource": [
+        { "label": "GitHub", "url": "https://github.com/hugolgle/kasa" }
+      ],
+      "technology": ["React.js"],
+      "date": "Février 2024",
+      "image": "./images/imgRealisation/5.png"
+    },
+    {
+      "id": "6",
+      "formation": "Personel",
+      "title": "FinTrack",
+      "objectif": "Application web de gestion de budget",
+      "skills": [
+        {
+          "skill": "Afficher les données du back end sur l'interface via des appels API"
+        },
+        {
+          "skill": "Configurer des routes API pour la communication client / serveur"
+        },
+        {
+          "skill": "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front"
+        }
+      ],
+      "ressource": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/hugolgle/fintrack"
+        },
+        { "label": "Le site", "url": "https://fintrack.hugolge.fr" }
+      ],
+      "technology": ["React.js", "TailwindCSS", "Node.js"],
+      "date": "Mars 2024",
+      "image": "./images/imgRealisation/1.png"
+    },
+    {
+      "id": "7",
+      "formation": "MyDigitalSchool",
+      "title": "Quizz Happy",
+      "objectif": "Application web de quizz",
+      "ressource": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tanguymln/quizzhappy"
+        },
+        { "label": "Le site", "url": "https://quizzhappy.netlify.app" }
+      ],
+      "technology": ["Angular", "Tailwind"],
+      "date": "Mars 2025",
+      "image": "./images/imgRealisation/7.png"
+    },
+    {
+      "id": "8",
+      "formation": "Personel",
+      "title": "Mon portfolio",
+      "objectif": "Mon portfolio personnel",
+      "ressource": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/hugolgle/mon-portfolio"
+        },
+        { "label": "Le site", "url": "https://hugolge.fr" }
+      ],
+      "technology": ["React.js", "SCSS"],
+      "date": "Mai 2024",
+      "image": "./images/imgRealisation/8.png"
+    }
+  ]
+}

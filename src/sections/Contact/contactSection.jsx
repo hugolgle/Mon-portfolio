@@ -32,14 +32,14 @@ export default function ContactSection() {
           </a>
 
           <a
-            href="mailto:hugo.web56@gmail.com"
+            href="mailto:contact@hugolge.fr"
             className="carre"
             target="_blank"
           >
             <p>
               <i className="fa-solid fa-envelope"></i>
             </p>
-            <p>hugo.web56@gmail.com</p>
+            <p>contact@hugolge.fr</p>
           </a>
         </div>
       </div>

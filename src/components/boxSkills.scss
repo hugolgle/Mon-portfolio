@@ -5,10 +5,9 @@ div.boxSkills {
   background-color: #ffffff;
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 1em;
   @include display(flex, column, normal, center);
-  box-shadow: -1px 64px 37px -61px rgba(0, 0, 0, 0.55);
-  opacity: 1;
+  @include shadow();
 
   @media screen and (max-width: 768px) {
     div.boxSkills {
