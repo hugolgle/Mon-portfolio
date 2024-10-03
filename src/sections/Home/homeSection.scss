@@ -11,13 +11,14 @@ section.home {
   div.containerLeft {
     width: 50vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.412);
+    background-color: rgba(0, 0, 0, 0.45);
     position: absolute;
     top: 0;
     @include display(flex, column, center, center);
     color: rgb(206, 206, 206);
     margin-left: 150%;
     animation: bbb 2s forwards;
+    border-radius: 0 1em 1em 0;
 
     img {
       width: 100px;
@@ -41,7 +42,7 @@ section.home {
     hr {
       width: 100px;
       border: none;
-      height: 6px;
+      height: 3px;
       border-radius: 50px;
       background-color: rgb(206, 206, 206);
 
@@ -101,6 +102,10 @@ section.home {
   @keyframes bbb {
     100% {
       margin-left: 0%;
+    }
+
+    0% {
+      margin-left: 150%;
     }
   }
 }

@@ -33,11 +33,11 @@ export default function Header() {
     <>
       <header>
         <a href="/" className="logo">
-          H U G O
+          Hugo
         </a>
         <div className={`nav ${clickHamburger ? "open" : ""}`}>
           <a href="/" className="logoResp">
-            H U G O
+            Hugo
           </a>
           <a href="#home" onClick={handleCloseHamburger}>
             Accueil

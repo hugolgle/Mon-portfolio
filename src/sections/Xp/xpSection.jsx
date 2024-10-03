@@ -15,7 +15,10 @@ export default function XpSection() {
 
       <div className="containerXpPro">
         {displayedXp.map((xp, index) => (
-          <div className="boxXpPro" key={index}>
+          <div
+            className="boxXpPro animate__animated animate__fadeIn"
+            key={index}
+          >
             {xp.image && (
               <div className="image">
                 <img src={xp.image} alt={`${xp.title} image`} />

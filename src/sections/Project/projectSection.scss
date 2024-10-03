@@ -1,20 +1,21 @@
 @import "../../main.scss";
 
 div.containerProject {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 30px;
+  padding: 0 5px;
 
-  div.containerRealisation {
+  div.cardRealisation {
     width: auto;
     height: 280px;
     overflow: hidden;
     background-color: #fff;
     cursor: pointer;
     transition: 0.3s;
-    border-radius: 10px;
+    border-radius: 1em;
 
     div.img {
       width: 100%;
@@ -25,6 +26,7 @@ div.containerProject {
       img {
         object-fit: cover;
         transition: 0.5s;
+        min-width: 300px;
       }
 
       div.containHover {
@@ -65,27 +67,32 @@ div.containerProject {
     }
   }
 
-  div.containerRealisation:hover {
+  div.cardRealisation:hover {
     transform: scale(1.05);
     box-shadow: -1px 64px 37px -61px rgba(0, 0, 0, 0.55);
   }
 
-  div.containerRealisation:hover img {
+  div.cardRealisation:hover img {
     filter: brightness(0.1);
   }
 
-  div.containerRealisation:hover div.img > div.containHover {
+  div.cardRealisation:hover div.img > div.containHover {
     visibility: visible;
     opacity: 1;
   }
 }
 
+div.btnFilter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 15px 0;
+}
+
 @media screen and (max-width: 1024px) {
   div.containerProject {
-    grid-template-columns: auto auto;
-    gap: 20px;
-
-    div.containerRealisation {
+    div.cardRealisation {
       div.img {
         height: 75%;
 
@@ -105,10 +112,7 @@ div.containerProject {
 
 @media screen and (max-width: 768px) {
   div.containerProject {
-    grid-template-columns: auto;
-    gap: 10px;
-
-    div.containerRealisation {
+    div.cardRealisation {
       height: 95%;
 
       div.img {

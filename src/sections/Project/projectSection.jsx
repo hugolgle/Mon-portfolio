@@ -68,8 +68,8 @@ export default function ProjectSection() {
       <div className="containerProject">
         {filteredRealisations.map((realisation, index) => (
           <div
-            className="containerRealisation"
-            key={index}
+            className="cardRealisation animate__animated animate__fadeIn"
+            key={`${btnFilter}-${index}`}
             onClick={() => handleOpenModal(index)}
           >
             <div className="img">
@@ -120,7 +120,7 @@ export default function ProjectSection() {
                 <b>Compétences:</b>
                 {filteredRealisations[modalIndex].skills.map(
                   (skill, skillIndex) => (
-                    <p key={skillIndex}>• {skill.skill}</p> // Render skill correctly
+                    <p key={skillIndex}>• {skill.skill}</p>
                   )
                 )}
               </div>

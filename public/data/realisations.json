@@ -273,6 +273,30 @@
       "techno": ["React.js"],
       "date": "Mars 2024",
       "image": "./images/imgProjetOC/projet_5.jpg"
+    },
+    {
+      "id": "15",
+      "ecole": "Personel",
+      "title": "FinTrack",
+      "mission": "Application web de gestion de budget.",
+      "skills": [
+        {
+          "id": "skill_1",
+          "skill": "Afficher les données du back end sur l'interface via des appels API"
+        },
+        {
+          "id": "skill_2",
+          "skill": "Configurer des routes API pour la communication client / serveur"
+        },
+        {
+          "id": "skill_3",
+          "skill": "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front"
+        }
+      ],
+      "ressource": "https://github.com/hugolgle/dashcash",
+      "techno": ["React.js", "TailwindCSS", "Node.js", "MongoDB"],
+      "date": "Mars 2024",
+      "image": "./images/imgProjetPerso/imageFintrack.png"
     }
   ]
 }

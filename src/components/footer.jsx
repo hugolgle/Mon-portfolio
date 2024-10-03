@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import "./footer.scss";
 
 export default function Footer() {
@@ -11,7 +10,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
           </a>
         </div>
         <p>© 2024 Hugo L, Tous droits réservés.</p>
